@@ -1,0 +1,48 @@
+# fastq_gz files download
+https://dl.dnanex.us/F/D/zk8QFfpbFP6PJ2245223K94GQY4X2Vf40zjqvVJK/1_S1_R1_001.fastq.gz 
+https://dl.dnanex.us/F/D/0VJz6964f4QK6fp249pBPg5jxbX08gFf9Xf49vzb/1_S1_R2_001.fastq.gz 
+https://dl.dnanex.us/F/D/Kxbgf4Kq0jZzBXqpQZpgBxbGvpPZB5g88B6VG34B/2_S2_R1_001.fastq.gz 
+https://dl.dnanex.us/F/D/0XfbBbkz2j20B580z0pFkbQ3p9v42F4jy2GFv7Kb/2_S2_R2_001.fastq.gz 
+https://dl.dnanex.us/F/D/PzP0jJYgJkYy398y5vvZGPkJBFJ631FPb2FQJ28k/3_S3_R1_001.fastq.gz 
+https://dl.dnanex.us/F/D/fpqxp9yv0XbY3zVBJG7YfB0XqpP78VXJqBgJbvzp/3_S3_R2_001.fastq.gz 
+https://dl.dnanex.us/F/D/7QpK3xVKk4k4G5y396G8GkP1412J8jvK8zfp2Ffb/4_S4_R1_001.fastq.gz 
+https://dl.dnanex.us/F/D/bx6zQKfbJxFJzvB8fXGJvXXfbv9B6bXPzKf80J7F/4_S4_R2_001.fastq.gz 
+https://dl.dnanex.us/F/D/Pvgbzv6qqF204yXjbf4Bx490ZjFXP8x0896Zv8fJ/5_S5_R1_001.fastq.gz 
+https://dl.dnanex.us/F/D/X4VYQy44f1J02Q0fqbG66Jzg3PK136yPFxGB8gx9/5_S5_R2_001.fastq.gz 
+https://dl.dnanex.us/F/D/71P8g7Fpg5jbKgj3p94vFGG9ZFV0Pf0Jg8b7Fbbj/6_S6_R1_001.fastq.gz 
+https://dl.dnanex.us/F/D/3BvgBqg9Kg8FZxY3xP9y3GqqzZy4xzkkVGVx2gv2/6_S6_R2_001.fastq.gz 
+https://dl.dnanex.us/F/D/GG8Q9xZ025PQzQpkQqfzzp1JZ8zj3yGbGzy2bYf2/7_S7_R1_001.fastq.gz 
+https://dl.dnanex.us/F/D/xB2gQB0Bq7jxJYbYjq5j4X4j7P9261b0q9gVxbX0/7_S7_R2_001.fastq.gz
+
+# bam files download (mapped onto hg38 analysis set)
+https://dl.dnanex.us/F/D/8qxZFj5z768KxvZVPBq445y2ZpyxvBz4gK0XxQ5Z/1_S1_R1_001_hg38_analysisSet_subread_ff.bam 
+https://dl.dnanex.us/F/D/98Q53pBqGKQ13b4qgqY5z5fbgp2pYY8ZGxzqv36f/2_S2_R1_001_hg38_analysisSet_subread_ff.bam 
+https://dl.dnanex.us/F/D/J1FBVJQ2Q27jgvPFJ7j7qK53Px43FYYvBkK8VXqz/3_S3_R1_001_hg38_analysisSet_subread_ff.bam 
+https://dl.dnanex.us/F/D/9VPy1PBV7qqykQ6k19J2BVBKG81Kz6zp4J0Yb3b1/4_S4_R1_001_hg38_analysisSet_subread_ff.bam 
+https://dl.dnanex.us/F/D/fb8g7yZ4yf2G6XBKP4xPpVgzzQY2PBYBqPkY2Fy4/5_S5_R1_001_hg38_analysisSet_subread_ff.bam 
+https://dl.dnanex.us/F/D/qX6V2fbxJPQZgP17yGY26Jjxk0PgBZq0Pg6gXJzJ/6_S6_R1_001_hg38_analysisSet_subread_ff.bam 
+https://dl.dnanex.us/F/D/bBvzBGzjvg2JpQFXPYXkK9fvJgjfP5kqB95pp8jY/7_S7_R1_001_hg38_analysisSet_subread_ff.bam
+
+# bam file download (mapped onto AAVAud-Des-hMTM1.seq and AudAAVhelp2-8.seq)
+https://dl.dnanex.us/F/D/3qQQ3y8yzGZbK331jF3ypVG0Y5F0JP31PpyFVP0X/1_S1_R1_001_AudAAVhelp2-8_tophat2_ff.bam 
+https://dl.dnanex.us/F/D/ppgvF02b55pGgYKZGqB3KK5jBZbFQZ5BQZf2b8YP/2_S2_R1_001_AudAAVhelp2-8_tophat2_ff.bam 
+https://dl.dnanex.us/F/D/KPGpVygF3XP0FJqZ2zbYPFKz2vgZG4QpQyVf0yy4/3_S3_R1_001_AudAAVhelp2-8_tophat2_ff.bam 
+https://dl.dnanex.us/F/D/Z6v3y4qk8K2JKKQP5527jB442Vjx1J19ZXQ1VzPy/4_S4_R1_001_AudAAVhelp2-8_tophat2_ff.bam 
+https://dl.dnanex.us/F/D/J0qQ5XK457zzz52Gpp11FZk96b7fXBfv1Q3XVf6y/5_S5_R1_001_AudAAVhelp2-8_tophat2_ff.bam 
+https://dl.dnanex.us/F/D/f8g19GJFYv52qykY1K0VFfp7PjpyBkvG6GyfXgb0/6_S6_R1_001_AudAAVhelp2-8_tophat2_ff.bam 
+https://dl.dnanex.us/F/D/P90zKQXQgkKXXqBJYyYZ5Gb12zK60BB7X9k9yFk9/7_S7_R1_001_AudAAVhelp2-8_tophat2_ff.bam
+
+# count table download
+https://dl.dnanex.us/F/D/927088f1gjjBk4Xz108pk25G1v56qbQ0gzXkB0xP/1_S1_R1_001_hg38_analysisSet_subread_ff_count.txt
+
+# genome download
+ftp://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/analysisSet/hg38.analysisSet.chroms.tar.gz
+
+# genome annotation download
+ftp://ftp.ensembl.org/pub/release-91/gtf/homo_sapiens
+
+# STEM software download
+http://www.sb.cs.cmu.edu/stem/stem.zip
+
+# subread and featureCoutns download
+http://subread.sourceforge.net/
