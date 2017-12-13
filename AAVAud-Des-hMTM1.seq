@@ -1,0 +1,703 @@
+LOCUS       AAVAud-De~      12471 bp    DNA   circular     SYN     6-Nov-2017
+Plasmid Name = AAVAud-Des-hMTM1
+Database Index Number = 4219
+Created by: Audentes
+DEFINITION  AAV vector plasmid for XLMTM clinical development project.  Human 
+            MTM1 gene driven by Desmin promoter and globin intron and polyA.  
+            Sequence corrected by JTG 3-16-16 for ITR flip-flop and lack of 
+            deletion in spacer.
+            
+FEATURES             Location/Qualifiers
+
+     intron          4373..4848
+                     /label="Beta-globin_intron"
+                     /note="Human B-globin 2nd intron, Rsa I deleted."
+     polyA_site      6947..6971
+                     /label="polyA_site"
+                     /note="Axxs added after these bases in globin message."
+     misc_feature    7495..7519
+                     /label="End_of_globin"
+                     /note="End of globin sequences in typical pMD 
+                     constructs."
+     repeat_region   3100..3244
+                     /label="_AAV2_ITR"
+                     /note="AAV inverted terminal repeat from wild type AAV 
+                     serotype 2 genome.  This is full length, with B hairpin 
+                     closer to internal D region.  No unique-ifier."
+     repeat_region   3100..3140
+                     /label="A_AAV_TR"
+                     /note="A section of AAV type 2 ITR."
+     repeat_region   7553..7593
+                     /label="A_AAV_TR"
+                     /note="A section of AAV type 2 ITR."
+     repeat_region   3141..3149
+                     /label="B_AAV_TR"
+                     /note="Stem of B stem loop from AAV ITR"
+     repeat_region   7594..7602
+                     /label="B_AAV_TR"
+                     /note="Stem of B stem loop from AAV ITR"
+     repeat_region   3163..3171
+                     /label="C_AAV_TR"
+                     /note="Stem of C stem loop from AAV ITR"
+     repeat_region   7616..7624
+                     /label="C_AAV_TR"
+                     /note="Stem of C stem loop from AAV ITR"
+     repeat_region   3225..3244
+                     /label="D_AAV_TR"
+                     /note="of AAV ITR, as in serotype 2 wildtype."
+     polyA_signal    6760..7519
+                     /label="Beta-globin_pA"
+                     /note="From 3rd exon of human beta globin, beginning at 
+                     BglII site.  Contains polyA sequences commonly used in 
+                     HGTI vector lab constructs.  Includes 80 bp of coding 
+                     sequence.  Exact match to human reference genome 
+                     NC_018922.2, positions 5245842..5245083."
+     misc_feature    3187..3210
+                     /label="RepBS"
+                     /note="Rep binding site"
+     misc_feature    7640..7663
+                     /label="RepBS"
+                     /note="Rep binding site"
+     promoter        3257..4316
+                     /label="hDes"
+                     /note="Human desmin promoter, from Paulin, I think.  Ends 
+                     correspond to -984..+76 of transcript as defined in 
+                     Reference human genome.  Perfect match to human reference 
+                     genome but for SNP variation at 399, documented in dbSNP 
+                     record rs2854885, and 790 documented in dbSNP record 
+                     rs2854886.  This promoter is working well in AAV mediated 
+                     sarcoglycan expression in mouse muscle, and for the 
+                     Audentes XLMTM therapy."
+     misc_RNA        11225..11331
+                     /label="RNA I"
+                     /note="RNA I transcript which inhibits RNA II 
+                     transcription and as a result down regulates subsequent 
+                     primer formation and plasmid replication.  Low copy 
+                     plasmids have a G immediately prior to this sequence, 
+                     whereas high copy plasmid have an A, which attenuates RNA 
+                     I transcription and thus increases RNA II transcription 
+                     and replication."
+     source          4457..4901
+                     /label="hßglobin"
+                     /note="Fragment of human beta globin intron, including 
+                     splice acceptor.  Extends from 392 bp upstream of splice 
+                     acceptor, to 53 bp downstream.  As found in pMD and pHDM 
+                     RsaI deleted intron from Mulligan lab, and hybrid intron 
+                     in Stratagene AAV-MCS plasmid.  Exact match to positions 
+                     5246283..5245839 of reference genome NC_018922.2.  "
+     misc_feature    3192..3205
+                     /label="_RepBS"
+                     /note="Rep Binding Site, as found in AAVS1 locus of human 
+                     genomic DNA."
+     misc_feature    7645..7658
+                     /label="_RepBS"
+                     /note="Rep Binding Site, as found in AAVS1 locus of human 
+                     genomic DNA."
+     source          4354..4460
+                     /label="hßglobin"
+                     /note="BamHI - RsaI fragment of human beta globin locus, 
+                     which includes splice donor of second intron.  Found in 
+                     pMDM and HDM plasmids.  Starting at 2nd base, it is an 
+                     exact match to NC_018922.2 reference genome at NCBI.  
+                     Positions 5246759..5246654.   First base is unique-ifier 
+                     for this version found in AAV-Desmin constructs."
+     source          4917..6738
+                     /label="hMTM1"
+                     /note="Human MTM1 mRNA coding sequence, from -10 relative 
+                     to start codon up to and including stop codon and no 
+                     more.  As found in Genethon FBD_Desmin_hMTM1_WT by Anna 
+                     Buj-Bello."
+     CDS             4927..6738
+                     /label="hMTM1"
+                     /note="Human MTM1 coding sequence, as found in Genethon 
+                     FBD_Desmin_hMTM1_WT by Anna Buj-Bello."
+     misc_feature    80..3079
+                     /label="_Spacer1"
+                     /note="Segment of human genomic DNA used as hopefully 
+                     inert spacer in JTG designed constructs.  This 3 kb DNA 
+                     derives naturally from downstream of the Ubiquitin C 
+                     gene, chosen because it is ubiquitously expressed and yet 
+                     contains no known coding or transcriptional elements.  
+                     This sequence was modified from the reference genome 
+                     sequence to remove several restriction sites and some but 
+                     not all CpG residues.  The natural 5 prime end of this 
+                     segment is 684 bp downstream of the UbC CDS stop codon.
+                     "
+     misc_feature    7697..10696
+                     /label="_Spacer2"
+                     /note="Segment of human genomic DNA used as hopefully 
+                     inert spacer in JTG designed constructs.  This is the 
+                     undeleted, original 3 kb DNA segment derived naturally 
+                     from downstream of the Ubiquitin C gene.  The selected 
+                     portion of the genome was chosen because it is 
+                     ubiquitously expressed and yet contains no known coding 
+                     or transcriptional elements.  This sequence was also 
+                     modified from the reference genome sequence to remove 
+                     several restriction sites and some but not all CpG 
+                     residues.  The natural 5 prime end of this segment is 
+                     immediately downstream of Spacer1, or 3,684 bp downstream 
+                     of the UbC CDS stop codon."
+     misc_feature    4241..4316
+                     /label="Desmin_5UTR"
+                     /note="5 prime UTR of Desmin transcript, as found in 
+                     Desmin promoter AAV constructs.  Demarcates start of 
+                     transcription and end of desmin derived sequence."
+     repeat_region   7533..7677
+                     /label="_AAV2_ITR"
+                     /note="AAV inverted terminal repeat from wild type AAV 
+                     serotype 2 genome.  This is full length, AAV serotype 2 
+                     ITR.  No unique-ifier."
+     misc_feature    complement(11203..11246)
+                     /label="High_copy"
+                     /note="Tag for High copy plasmid replication xxpUC18xx"
+     repeat_region   complement(3184..3224)
+                     /label="A_AAV_TR"
+                     /note="A section of AAV type 2 ITR."
+     repeat_region   complement(7637..7677)
+                     /label="A_AAV_TR"
+                     /note="A section of AAV type 2 ITR."
+     repeat_region   complement(3153..3161)
+                     /label="B_AAV_TR"
+                     /note="Stem of B stem loop from AAV ITR"
+     repeat_region   complement(7606..7614)
+                     /label="B_AAV_TR"
+                     /note="Stem of B stem loop from AAV ITR"
+     repeat_region   complement(3175..3183)
+                     /label="C_AAV_TR"
+                     /note="Stem of C stem loop from AAV ITR"
+     repeat_region   complement(7628..7636)
+                     /label="C_AAV_TR"
+                     /note="Stem of C stem loop from AAV ITR"
+     repeat_region   complement(7533..7552)
+                     /label="D_AAV_TR"
+                     /note="of AAV ITR, as in serotype 2 wildtype."
+     misc_feature    complement(3114..3137)
+                     /label="RepBS"
+                     /note="Rep binding site"
+     misc_feature    complement(7567..7590)
+                     /label="RepBS"
+                     /note="Rep binding site"
+     rep_origin      complement(10722..11394)
+                     /label="_ori"
+                     /note="Origin of replication for some high copy bacterial 
+                     plasmids derived from pMB9.  Loose match to ColE1 plasmid 
+                     sequence NC_001371, from 582..1254, which contains the 
+                     RNA II primer transcript.  Critical t mutation defining 
+                     high copy replication is in lower case."
+     misc_RNA        complement(10782..11335)
+                     /label="RNA II"
+                     /note="RNA II transcript of high copy plasmids, which 
+                     after degradation by RNAseH serves as a primer for 
+                     plasmid replication.  Transcription typically continues 
+                     beyond this sequence, pairs to the template DNA as an 
+                     RNA-DNA hybrid, and is cleaved at the end of this 
+                     sequence by RNAseH.  Opposing RNA I transcription causes 
+                     premature termination of this RNA downregulating 
+                     replication."
+     rep_origin      complement(10757..10781)
+                     /label="rep_origin"
+                     /note="Plasmid replication begins here, using an RNA 
+                     primer derived from the RNA II transcript cleaved just 
+                     upstream of this sequence by RNAseH."
+     CDS             complement(11549..12358)
+                     /label="_kan"
+                     /note="kan resistance, from another Invitrogen gateway 
+                     entry plasmid.  One bp different from the other gateway 
+                     plasmid."
+     misc_feature    complement(3119..3132)
+                     /label="_RepBS"
+                     /note="Rep Binding Site, as found in AAVS1 locus of human 
+                     genomic DNA."
+     misc_feature    complement(7572..7585)
+                     /label="_RepBS"
+                     /note="Rep Binding Site, as found in AAVS1 locus of human 
+                     genomic DNA."
+     primer_bind     4803..4837
+                     /label="SJVL-14_MaxRead=813"
+                     /note="globin upstream reading into EcoR I site of exon 
+                     III.  Was HGTI-1732.  Perfect match Tm = 65.5 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is GGCCCTTTTG CTAATCATGT TCATACCTCT TATCT.  
+                     This primer matches this site perfectly."
+     primer_bind     complement(6802..6824)
+                     /label="SJVL-20_MaxRead=800"
+                     /note="Globin sequencing primer, downstream facing left.  
+                     Was HGTI-3185.  Perfect match Tm = 65.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGCCAGGGCA TTAGCCACAC CAG.  This primer matches this 
+                     site completely."
+     primer_bind     3210..3231
+                     /label="SJVL-351_MaxRead=206"
+                     /note="scAAV sequencing primer.  Perfect match Tm = 
+                     58.1 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is AGAGGGAGTG GCCAACTCCA TC.  This 
+                     primer matches this site perfectly."
+     primer_bind     complement(7546..7567)
+                     /label="SJVL-351_MaxRead=206"
+                     /note="scAAV sequencing primer.  Perfect match Tm = 
+                     58.1 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is AGAGGGAGTG GCCAACTCCA TC.  This 
+                     primer matches this site completely."
+     primer_bind     complement(4876..4908)
+                     /label="SJVL-373_MaxRead=853"
+                     /note="PCR of globin intron, with Mlu I site.  Right.  
+                     Anneal at 56 C.  Perfect match Tm = 72.6 C, although 
+                     for oligos less than 35 bp, only the 3 prime 17 nt must 
+                     match to trigger annotation.  The actual sequence of the 
+                     primer is AACGCGTAAT TCTTTGCCAA AGTGATGGGC CAG.  This 
+                     primer does not match this site completely."
+     primer_bind     complement(7500..7526)
+                     /label="SJVL-459_MaxRead=733"
+                     /note="beta globin 3prime UTR into gamma PCR, left.  
+                     Perfect match Tm = 69.8 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CCTGCAGGTC ACTGTGAGTG GGGGAGG.  This primer does not 
+                     match this site completely."
+     primer_bind     complement(3102..3220)
+                     /label="SJVL-786_MaxRead=0"
+                     /note="AAV ITR long shot.  Afl III to blunt.  Bottom 
+                     Strand.  Perfect match Tm = 105.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCACTCCCTC TCTGCGCGCT CGCTCGCTCA CTGAGGCCGC CCGGGCAAAG 
+                     CCCGGGCGTC GGGCGACCTT TGGTCGCCCG GCCTCAGTGA GCGAGCGAGC 
+                     GCGCAGAGAG GGAGTGGCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(7555..7673)
+                     /label="SJVL-786_MaxRead=0"
+                     /note="AAV ITR long shot.  Afl III to blunt.  Bottom 
+                     Strand.  Perfect match Tm = 105.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCACTCCCTC TCTGCGCGCT CGCTCGCTCA CTGAGGCCGC CCGGGCAAAG 
+                     CCCGGGCGTC GGGCGACCTT TGGTCGCCCG GCCTCAGTGA GCGAGCGAGC 
+                     GCGCAGAGAG GGAGTGGCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(10864..10884)
+                     /label="SJVL-787_MaxRead=821"
+                     /note="plasmid backbone primer for sequencing 
+                     scAAVv2-GFP.  Perfect match Tm = 57.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGGGGAAACG CCTGGTATCT T.  This primer matches this 
+                     site completely."
+     primer_bind     complement(10902..10923)
+                     /label="SJVL-788_MaxRead=550"
+                     /note="plasmid backbone primer for sequencing 
+                     scAAVv2-GFP.  Perfect match Tm = 62.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGCAGGGTCG GAACAGGAGA GC.  This primer matches this 
+                     site completely."
+     primer_bind     complement(4434..4457)
+                     /label="SJVL-924_MaxRead=753"
+                     /note="Globin intron sequencing primer reverse.  
+                     Perfect match Tm = 55.1 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CCCTGTTACT TCTCCCCTTC CTAT.  This primer matches this 
+                     site completely."
+     primer_bind     3224..3244
+                     /label="SJVL-940_MaxRead=0"
+                     /note="AAV2 ITR primer.  Use as left primer to detect 
+                     ITR-Rep helper recombinations.  As per Snyder design.  
+                     Perfect match Tm = 50.8 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     actccatcac taggggttcc t.  This primer matches this site 
+                     perfectly."
+     primer_bind     complement(7533..7553)
+                     /label="SJVL-940_MaxRead=0"
+                     /note="AAV2 ITR primer.  Use as left primer to detect 
+                     ITR-Rep helper recombinations.  As per Snyder design.  
+                     Perfect match Tm = 50.8 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     actccatcac taggggttcc t.  This primer matches this site 
+                     completely."
+     primer_bind     complement(10751..10772)
+                     /label="SJVL-1284_MaxRead=746"
+                     /note="Sequencing plasmid backbones.  Perfect match Tm 
+                     = 61.7 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is ACGCGGCCTT TTTACGGTTC CT.  This 
+                     primer matches this site completely."
+     primer_bind     10884..10900
+                     /label="SJVL-1706_MaxRead=719"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTGGAAGCTC CCTCGTG.  This primer matches this site 
+                     perfectly."
+     primer_bind     11065..11083
+                     /label="SJVL-1707_MaxRead=761"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTGCGCCTTA TCCGGTAAC.  This primer matches this site 
+                     perfectly."
+     primer_bind     11247..11266
+                     /label="SJVL-1708_MaxRead=769"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGCTGAAGCC AGTTACCTTC .  This primer matches this site 
+                     perfectly."
+     primer_bind     11429..11448
+                     /label="SJVL-1709_MaxRead=754"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 46.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TAAGGGATTT TGGTCATGAG .  This primer matches this site 
+                     perfectly."
+     primer_bind     complement(11349..11367)
+                     /label="SJVL-1741_MaxRead=785"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GATCCTTTTT TTCTGCGCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(11168..11187)
+                     /label="SJVL-1742_MaxRead=785"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AACTCTGTAG CACCGCCTAC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(10986..11006)
+                     /label="SJVL-1743_MaxRead=763"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCGAACTGAG ATACCTACAG C.  This primer matches this 
+                     site completely."
+     primer_bind     complement(10805..10824)
+                     /label="SJVL-1744_MaxRead=759"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CGATTTTTGT GATGCTCGTC .  This primer matches this site 
+                     completely."
+     primer_bind     6680..6698
+                     /label="Aud-1_MaxRead="
+                     /note="AT132 qPCR primer designed by Clay Malinak at 
+                     SNBL.  Forward primer designated AAV8.Des.MTM1-3F.  
+                     Perfect match Tm = 51.7 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CCCCAACTTC ACCTTCCAG.  This primer matches this site 
+                     perfectly."
+     primer_bind     complement(6798..6815)
+                     /label="Aud-2_MaxRead="
+                     /note="AT132 qPCR primer designed by Clay Malinak at 
+                     SNBL.  Reverse primer designated AAV8.Des.MTM1-3R.  
+                     Perfect match Tm = 47.8 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     ATTAGCCACA CCAGCCAC.  This primer matches this site 
+                     completely."
+     primer_bind     6713..6735
+                     /label="Aud-3_MaxRead="
+                     /note="AT132 qPCR primer designed by Clay Malinak at 
+                     SNBL.   Probe, designated AAV8.Des-MTM1-3Probe.  
+                     Modifications:  5’ 6-FAM fluorophore, Internal ZEN 
+                     quencher, 3’ IowaBlackFQ  Perfect match Tm = 60.7 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is TGCCCCATGT GCAAACTCAC TTC.  This primer 
+                     matches this site perfectly."
+     primer_bind     10450..10466
+                     /label="Aud-7_MaxRead="
+                     /note="AT001 ssDNA10796FW WL  Perfect match Tm = 56.9 
+                     C, although for oligos less than 35 bp, only the 3 prime 
+                     17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is CGCGCACCTC CAGGCTT.  This 
+                     primer matches this site perfectly."
+     primer_bind     3001..3149
+                     /label="Aud-15_MaxRead="
+                     /note="FWD 50nt ITPxx100nt out. Anneals to ITR and 100nt 
+                     outside of ITR xxplasmid sequence; pAudDes-MTM1xx  
+                     Perfect match Tm = 98.4 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     GGATTATAGG CTTGAGCCAC TGCTCCCGGC CAGCACTTAT TTTTATAATT 
+                     CTTCATGATT ACTGTGTTAC TGTCCCATGG GCCGCCAGGG CCAGCTAGGT 
+                     TGGCCACTCC CTCTCTGCGC GCTCGCTCGC TCACTGAGGC CGGGCGACC.  
+                     This primer matches this site perfectly."
+     primer_bind     4927..4965
+                     /label="Aud-10_MaxRead="
+                     /note="Aud4 for MTM1-FLAG FP for AAVAud-Des-hMTM1- RA. 
+                     PCR Forward Primer for amplifying hMTM1 from 
+                     AAVAud-Des-hMTM1 plasmid to make Topo pcDNA3.4 
+                     MTM1-FLAG  Perfect match Tm = 66.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATGGCTTCTG CATCAACTTC TAAATATAAT TCACACTCC.  This 
+                     primer matches this site perfectly."
+     primer_bind     complement(2877..2898)
+                     /label="Aud-13_MaxRead="
+                     /note="Primer for 5kb control. pAud-Des-MTM1  Perfect 
+                     match Tm = 53.4 C, although for oligos less than 35 bp, 
+                     only the 3 prime 17 nt must match to trigger annotation.  
+                     The actual sequence of the primer is attagacggg 
+                     ctttgtagag gg.  This primer matches this site 
+                     completely."
+     primer_bind     complement(7774..7796)
+                     /label="Aud-12_MaxRead="
+                     /note="CAT-Puro_Seq-R  Seq primer for pCAT-PGK-PuroV2   
+                     MC  Perfect match Tm = 50.2 C, although for oligos less 
+                     than 35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     GAAACACATG AAGACATCAC CTC.  This primer matches this site 
+                     completely."
+     primer_bind     1653..1670
+                     /label="Aud-21_MaxRead="
+                     /note="At001 ssDNA 2531FW WL  Perfect match Tm = 51.3 
+                     C, although for oligos less than 35 bp, only the 3 prime 
+                     17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is CTGCCTCCCA AAGTGCTG.  This 
+                     primer matches this site perfectly."
+     primer_bind     2069..2086
+                     /label="Aud-21_MaxRead="
+                     /note="At001 ssDNA 2531FW WL  Perfect match Tm = 51.3 
+                     C, although for oligos less than 35 bp, only the 3 prime 
+                     17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is CTGCCTCCCA AAGTGCTG.  This 
+                     primer matches this site perfectly."
+     primer_bind     6512..6530
+                     /label="Aud-22_MaxRead="
+                     /note="AT001 ssDNA 6974FW WL  Perfect match Tm = 45.6 
+                     C, although for oligos less than 35 bp, only the 3 prime 
+                     17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is GTCACTTGGA ACTCTGGGT.  This 
+                     primer matches this site perfectly."
+     primer_bind     3244..3260
+                     /label="Aud-23_MaxRead="
+                     /note="AT001 ssDNA3706FW WL  Perfect match Tm = 49.4 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is TCCTAGCACG CGCTACC.  This primer matches 
+                     this site perfectly."
+     primer_bind     complement(7506..7522)
+                     /label="Aud-24_MaxRead="
+                     /note="AT001-ssDNA+7984 R WL  Perfect match Tm = 46.3 
+                     C, although for oligos less than 35 bp, only the 3 prime 
+                     17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is CCGGTCACTG TGAGTGG.  This 
+                     primer matches this site completely."
+     primer_bind     complement(7774..7800)
+                     /label="Aud-26_MaxRead="
+                     /note="Spacer 2.1. pAud-Des-MTM1  Perfect match Tm = 
+                     56.6 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is AGTTGAAACA CATGAAGACA TCACCTC.  
+                     This primer matches this site completely."
+     primer_bind     5585..5603
+                     /label="Aud-27_MaxRead="
+                     /note="AT001-ssDNA+6047 F WL  Perfect match Tm = 53.2 
+                     C, although for oligos less than 35 bp, only the 3 prime 
+                     17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is GGTCCCGAAA TCGAATTCC.  This 
+                     primer matches this site perfectly."
+     primer_bind     4453..4472
+                     /label="Aud-28_MaxRead="
+                     /note="AT001-ssDNA+4915 F WL  Perfect match Tm = 45.2 
+                     C, although for oligos less than 35 bp, only the 3 prime 
+                     17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is CAGGGTACAC ATATTGACCA .  This 
+                     primer matches this site perfectly."
+     primer_bind     3590..3606
+                     /label="Aud-29_MaxRead="
+                     /note="AT001-ssDNA+4052 F  Perfect match Tm = 47.3 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is ACCCTCGACA GTACCGG.  This primer matches 
+                     this site perfectly."
+     primer_bind     2965..2984
+                     /label="Aud-30_MaxRead="
+                     /note="Spacer 1. pAud-Des-MTM1  Perfect match Tm = 60.2 
+                     C, although for oligos less than 35 bp, only the 3 prime 
+                     17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is CTTGTGATCT GCCCGCCTCG .  This 
+                     primer matches this site perfectly."
+     primer_bind     10716..10737
+                     /label="Aud-32_MaxRead="
+                     /note="Ori. pAud-Des-MTM1  Perfect match Tm = 51.8 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is ATTGTCACAT GTGAGCAAAA GG.  This primer 
+                     matches this site perfectly."
+     primer_bind     3085..3102
+                     /label="Aud-47_MaxRead="
+                     /note="hCASQ2-Spc1-FSeq  Seq primer for 
+                     pAAVAud-CDes-hCASQ2co  MC  Perfect match Tm = 52.9 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is CCAGGGCCAG CTAGGTTG.  This primer 
+                     matches this site perfectly."
+     primer_bind     complement(12110..12130)
+                     /label="Aud-47_MaxRead="
+                     /note="KAN1-FP - RA  Perfect match Tm = 55.5 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is ATGCCTCTTC CGACCATCAA G.  This primer 
+                     matches this site completely."
+     primer_bind     complement(12250..12267)
+                     /label="Aud-52_MaxRead="
+                     /note="KAN1-RP - RA.Reverse Primer for ddPCR 
+                     quantification of residual producation plasmid that 
+                     targets Kanamycin   Perfect match Tm = 58.1 C, although 
+                     for oligos less than 35 bp, only the 3 prime 17 nt must 
+                     match to trigger annotation.  The actual sequence of the 
+                     primer is TCGGGCAATC AGGTGCGA.  This primer matches this 
+                     site completely."
+     primer_bind     complement(12202..12228)
+                     /label="Aud-56_MaxRead="
+                     /note="KAN1-Probe - RA  Perfect match Tm = 69.6 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is AGCCCGATGC GCCAGAGTTG TTTCTGA.  This 
+                     primer matches this site completely."
+     primer_bind     4307..4323
+                     /label="Aud-56_MaxRead="
+                     /note="Des_HBB2_MGB_1F  - RA. Designed by Genethon. 
+                     Forward Primer used for ddPCR quantification of MTM1 VG 
+                     Titer  Perfect match Tm = 53.3 C, although for oligos 
+                     less than 35 bp, only the 3 prime 17 nt must match to 
+                     trigger annotation.  The actual sequence of the primer is 
+                     GCCTCGCCCG GACTCTA.  This primer matches this site 
+                     perfectly."
+     primer_bind     3288..3305
+                     /label="Aud-62_MaxRead="
+                     /note="AAVAud-Des-hMTM1-3288 F WL  Perfect match Tm = 
+                     52.2 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is GCCTTGTTTC CCAGCCAT.  This 
+                     primer matches this site perfectly."
+     primer_bind     complement(7478..7495)
+                     /label="Aud-64_MaxRead="
+                     /note="AAVAud-Des-hMTM1-7495 R WL  Perfect match Tm = 
+                     46.8 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is GAAGAAGGGC TCACAGGA.  This 
+                     primer matches this site completely."
+     primer_bind     3477..3493
+                     /label="Aud-65_MaxRead="
+                     /note="AAVAud-Des-hMTM1-3476 F WL  Perfect match Tm = 
+                     46.3 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is GCAGGAGCCA CACAAAG.  This 
+                     primer matches this site perfectly."
+     primer_bind     3444..3461
+                     /label="Aud-66_MaxRead="
+                     /note="AAVAud-Des-hMTM1-3444 F WL  Perfect match Tm = 
+                     51.1 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is GATGAATCAG GGAGGGGG.  This 
+                     primer matches this site perfectly."
+     primer_bind     3281..3299
+                     /label="Aud-68_MaxRead="
+                     /note="AAVAud-Des-hMTM1-3281 F WL  Perfect match Tm = 
+                     51.8 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is CTCCTGTGCC TTGTTTCCC.  This 
+                     primer matches this site perfectly."
+     primer_bind     complement(4346..4363)
+                     /label="Aud-67_MaxRead="
+                     /note="Des_HBB2_MGB_1R  - RA. Designed by 
+                     Genethon.Reverse Primer for ddPCR quantification of MTM1 
+                     VG Titer  Perfect match Tm = 47.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTCAGGATCG GTGACCAG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(3727..3747)
+                     /label="Aud-74_MaxRead="
+                     /note="CDes-CASQ2-RSeq-2  Perfect match Tm = 53.6 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is GTCTCTAGGC AGGAAGGGAG G.  This primer 
+                     matches this site completely."
+     primer_bind     4325..4341
+                     /label="Aud-75_MaxRead="
+                     /note="Des HBB2 MGB P - RA.Designed by Genethon.Probed 
+                     used for ddPCR quantification of MTM1 VG Titer  Perfect 
+                     match Tm = 37.0 C, although for oligos less than 35 bp, 
+                     only the 3 prime 17 nt must match to trigger annotation.  
+                     The actual sequence of the primer is AGGATCCAGA TCTAAGC.  
+                     This primer matches this site perfectly."
+     primer_bind     6680..6698
+                     /label="Aud-76_MaxRead="
+                     /note="AAV8.Des.MTM1-3 FP - RA.Designed by SNBL.Forward 
+                     Primer used for ddPCR quantification of MTM1 VG Titer  
+                     Perfect match Tm = 51.7 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CCCCAACTTC ACCTTCCAG.  This primer matches this site 
+                     perfectly."
+     primer_bind     complement(3279..3298)
+                     /label="Aud-79_MaxRead="
+                     /note="CDes-CASQ2-BstBI-RSeq  Seq primer for 
+                     pAAVAud-Des-CASQ2co-1  MC  Perfect match Tm = 51.2 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is GGAAACAAGG CACAGGAGAG .  This primer 
+                     matches this site completely."
+     primer_bind     5605..5624
+                     /label="Aud-84_MaxRead="
+                     /note="GW-MTM1-mid F - RA.Designed by Genine 
+                     Winslow.Forward Primer for ddPCR quantification of MTM1 
+                     VG Titer  Perfect match Tm = 49.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTGCTGTCAT GGATTCATCC .  This primer matches this site 
+                     perfectly."
+     primer_bind     complement(5661..5679)
+                     /label="Aud-86_MaxRead="
+                     /note="GW-MTM1-mid R - RA.Designed by Genine 
+                     Winslow.Reverse Primer for ddPCR quantification of MTM1 
+                     VG Titer  Perfect match Tm = 47.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCCACTCATA CCGACAAGA.  This primer matches this site 
+                     completely."
+     primer_bind     complement(5634..5656)
+                     /label="Aud-87_MaxRead="
+                     /note="GW MTM1 mid P - RA.Designed by Genine 
+                     Winslow.Probe for ddPCR quantification of MTM1 VG 
+                     Titer  Perfect match Tm = 61.2 C, although for oligos 
+                     less than 35 bp, only the 3 prime 17 nt must match to 
+                     trigger annotation.  The actual sequence of the primer is 
+                     GACTGCAACG CACAATGACC GTC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(3816..3835)
+                     /label="Aud-94_MaxRead="
+                     /note="CDes-CASQ2-RSeq  Seq primer for 
+                     pAAVAud-Des-hCASQ2co  MC  Perfect match Tm = 52.6 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is GGCCCTAAAC CACCTTGTTC .  This primer 
+                     matches this site completely."
+^^
+TCGCGCGTTTCGGTGATGACGGTGAAAACCTCTGACACATGCAGCTCCCGGACGTCATTGTCGATCCTGCAGGCGTACGGTAAAAAAAGGCATAGCTAACAAGGTGTGGAAAAAGAATTAGTGGTTAGAGAGTGAGCTATTCGTTGAAACAATTGCGTTCTTGAAACAATTCTTGCTGGTAAAATGTCACATTTTATGTGACTACAGGTGGAGGATTGGCACATAACCTAACCAGTGGGGGAAACAATTGACCTCTGGATTTGTCCAAGTGTATAGTAGCATTTGCCCAATCGAATGGTCCTGGTAAGGTGTTAATGTTGACTAGAACCAAAGGTGGAAGTTGCAGGGAAACTGGTTTAGTACAAGGGTGGACACCAGGCAGTCATCCAGAGGCCCATTAAAGGCCTTGGAATGTTTTTCCGAAGGAGAATCACTCCCTCTTCTCTCGCTTAAAGTTTTAGGGGATTCATGAACAGCTGCTGTGGGATAGTTTCATGTCCCTAGCAATTGTAAAGCAACTGAGGGTGGCTTAAACCAGTTTTAGCTTTAGGGTTAGGGTTACTGGACTAAAATTTGAGAAATTCATAAATCTTAAGGAAATCCATTGTGAGTTTTCATTATGAGTGCATCCAATGTATAATTTCCATGACCCTCCCATGCAAGTGAGCATGTGAATCAGGAAACGTTACAAGAACCCAACAAACTCAACCACTACTAGACAGGCGATCACTTCCAGTTAGTATGCAACTTTCTGTGTAATTTTAGTTACCATTAAAATCTGGATGACCTTAGTGTAAGGAAAAAATACCTTGAATAGTGTTAAAGATGTACACTTGGTGTCAGGCATTGTAACATTGATAAATCTGTGTAAGGTGCTTTTTGAAAACTTCAAAGCTGCATCAAGTCAAGTACAAGAAAGGCCATGGCTGCTAAAGCTGTTGAAGATGTGGGATGGAACTGGGTCACATTGGTGTTAACAGCGTTGTGCAGAGCCGGCAGGATCTTGGTGTGAGCGAACATTAGTCTATTTAATAAAGCTGTGTGAATGTTGTAGAGGTGAGGATGCTCACTTGAAAACTCACTGAAGAACACTTGGCCCCTTGAACTAAAGTGCTTCTATCAAGTTCAGTGAGAAATTCCGAATTACAAGCATAGGTACTAGAAAAGTTTTGAAAAGCAGTATAGAGCAACATAAGCACATTCATAAAATTAGTGATGTAGAAAGTGAAATTTCCACGTATGGTCACTCCCAGAGAAAAAAAATACGTTTATTTACCTTTTTTAAAAATAGGGGATTTCAGGCCGGGTGAGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCCAGGTGGGCGGATCACCTGAGGTCAGGAGTTGGAGGGATGGCAAATCCCATCTCTACAAAATATACAAAAAAATAGCTGGGTGTGTTGGCAGGCGCCTGTAATCCCAGCTACTCGGAAGGCTGAGGCAGGAGAATCCCTGGAACCAGGGATGTGGAGGTTGCAGTGAGCCGAGATTGTGTAACTGCATTCCAGCCTGGGCAACAAGAGCAAGACTCCGTATCAGGAAAAAAAAAAGGGGGGGTTGGATTTCGCTTGTTGCATAGGTTGGTCTCAAACTCCTGGCCTCAAGTGATTCTCCTGCCTCTGCCTCCCAAAGTGCTGAGATTACAGGTGTGAGGCACCATGCCAGGTCTCTTACTGTTTGTAATTAAATACATACACATTTTGTGTGTTTGTGTGCACCTTTATAAAGTCAAAGGTGATAGTAACCCATTTAAGTTCCTACTCAATTTTACTTTCCAGGGATAACTAACTACTTTTTCTTTTTGAGATGGAGTCTCGCTGTGTAGCCCAGGCTGGAGTGCAGTGGCACCATCTCGGCTCACTGCAAGCTCCTCCTCCCTGGTTCACGCTATTCTCCTGCCTCAGCCTCCCCAACAACTAGGACTACAGGCTCACCTCGCCATACCTGGCTAATTTTTTGTATTTTTAGTAGAGACAGGGTTTCACTGTGTTAGCCAGGATGGTCTCGATCTCCTGACCTTGTGATCCGCCTGCCTCTGCCTCCCAAAGTGCTGGGATTACAGGCATGAGCAACCTCACCCAGCTGGGATAACTACTTTTTACAGGTTGATATTCTTTTGGACTTTTCCCCTGTGTAAAAATATACTATATTTGTTATGTACATATTATGTACATACAGACACAAATTGGACCATTCTCAGTATAATGATTCTCAGGTTTTTTTTTTTTTTTTGAGGTGGGGAACTAGATAATTATGGACATCTTTCCATACTAGCATATCAATATCTACCTCATTCTTTTTAATATTTTTGCTAGTATTCCATTGTATGAATGTCCTATGATTTACTTAACCTGTCCATCAATATTTGTTTCCAGGTTTTTGCTATTATAATGCTGCTGCAAAGTACATCCTCACACATCTTTATTTTGTCTATTCATATTTCTGTAAGATAGGTTACTAAAGTTGGAACTGCCAAATTAACACTATCATACTATTTTGTTTTTTAATTTTAATTTTTTAAAAAATGTAAAATGTGCAATTTCAAGAGGAGAAACTTGAACACAAGGAGCAAAATCTATTTTTATAACATCCTATTAAAAGCTTGCTTTACATAAAGATTTTGAAAGAATAGCATAAATACAAGATTTCTATTTTAATTGGATTCTTAGGGCTAATAAAATAATCAGCCTTAGCACTTATTTATTTATTTTTTTTGAGAGGGAGTCTCGCTCTGTTGTCCATGCTGGAGTGCAGTGGCGTGATCTCGGCTCACTGCAAGCTCCACCTCATGAGTTCACACCATTCTCCTGCCTCAGTCTCCCGAGTAGCTGGGACTCCAGGCGCCCTCTACAAAGCCCGTCTAATTTTTTTTGTATTTTTAGTAGAGACAGGGTTTCACTGTGTTAGCCAGGATGGTCTTGATCTCCTGACCTTGTGATCTGCCCGCCTCGGCCTCCCAAAGTGCTGGGATTATAGGCTTGAGCCACTGCTCCCGGCCAGCACTTATTTTTATAATTCTTCATGATTACTGTGTTACTGTCCCATGGGCCGCCAGGGCCAGCTAGGTTGGCCACTCCCTCTCTGCGCGCTCGCTCGCTCACTGAGGCCGGGCGACCAAAGGTCGCCCGACGCCCGGGCTTTGCCCGGGCGGCCTCAGTGAGCGAGCGAGCGCGCAGAGAGGGAGTGGCCAACTCCATCACTAGGGGTTCCTCCTAGCACGCGCTACCCCCTGCCCCCCACAGCTCCTCTCCTGTGCCTTGTTTCCCAGCCATGCGTTCTCCTCTATAAATACCCGCTCTGGTATTTGGGGTTGGCAGCTGTTGCTGCCAGGGAGATGGTTGGGTTGACATGCGGCTCCTGACAAAACACAAACCCCTGGTGTGTGTGGGCGTGGGTGGTGTGAGTAGGGGGATGAATCAGGGAGGGGGCGGGGGACCCAGGGGGCAGGAGCCACACAAAGTCTGTGCGGGGGTGGGAGCGCACATAGCAATTGGAAACTGAAAGCTTATCAGACCCTTTCTGGAAATCAGCCCACTGTTTATAAACTTGAGGCCCCACCCTCGACAGTACCGGGGAGGAAGAGGGCCTGCACTAGTCCAGAGGGAAACTGAGGCTCAGGGCCAGCTCGCCCATAGACATACATGGCAGGCAGGCTTTGGCCAGGATCCCTCCGCCTGCCAGGCGTCTCCCTGCCCTCCCTTCCTGCCTAGAGACCCCCACCCTCAAGCCTGGCTGGTCTTTGCCTGAGACCCAAACCTCTTCGACTTCAAGAGAATATTTAGGAACAAGGTGGTTTAGGGCCTTTCCTGGGAACAGGCCTTGACCCTTTAAGAAATGACCCAAAGTCTCTCCTTGACCAAAAAGGGGACCCTCAAACTAAAGGGAAGCCTCTCTTCTGCTGTCTCCCCTGACCCCACTCCCCCCCACCCCAGGACGAGGAGATAACCAGGGCTGAAAGAGGCCCGCCTGGGGGCTGCAGACATGCTTGCTGCCTGCCCTGGCGAAGGATTGGTAGGCTTGCCCGTCACAGGACCCCCGCTGGCTGACTCAGGGGCGCAGGCCTCTTGCGGGGGAGCTGGCCTCCCCGCCCCCACGGCCACGGGCCGCCCTTTCCTGGCAGGACAGCGGGATCTTGCAGCTGTCAGGGGAGGGGAGGCGGGGGCTGATGTCAGGAGGGATACAAATAGTGCCGACGGCTGGGGGCCCTGTCTCCCCTCGCCGCATCCACTCTCCGGCCGGCCGCCTGCCCGCCGCCTCCTCCGTGCGCCCGCCAGCCTCGCCCGGACTCTAGAGGATCCAGATCTAAGCTTCTCTGGTCACCGATCCTGAGAACTTCAGGGTGAGTCTATGGGACCCTTGATGTTTTCTTTCCCCTTCTTTTCTATGGTTAAGTTCATGTCATAGGAAGGGGAGAAGTAACAGGGTACACATATTGACCAAATCAGGGTAATTTTGCATTTGTAATTTTAAAAAATGCTTTCTTCTTTTAATATACTTTTTTGTTTATCTTATTTCTAATACTTTCCCTAATCTCTTTCTTTCAGGGCAATAATGATACAATGTATCATGCCTCTTTGCACCATTCTAAAGAATAACAGTGATAATTTCTGGGTTAAGGCAATAGCAATATTTCTGCATATAAATATTTCTGCATATAAATTGTAACTGATGTAAGAGGTTTCATATTGCTAATAGCAGCTACAATCCAGCTACCATTCTGCTTTTATTTTATGGTTGGGATAAGGCTGGATTATTCTGAGTCCAAGCTAGGCCCTTTTGCTAATCATGTTCATACCTCTTATCTTCCTCCCACAGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCATCACTTTGGCAAAGAATTCCGCGGGCGGCCGCAAGTTTCCAGGATGGCTTCTGCATCAACTTCTAAATATAATTCACACTCCTTGGAGAATGAGTCTATTAAGAGGACGTCTCGAGATGGAGTCAATCGAGATCTCACTGAGGCTGTTCCTCGACTTCCAGGAGAAACACTAATCACTGACAAAGAAGTTATTTACATATGTCCTTTCAATGGCCCCATTAAGGGAAGAGTTTACATCACAAATTATCGTCTTTATTTAAGAAGTTTGGAAACGGATTCTTCTCTAATACTTGATGTTCCTCTGGGTGTGATCTCGAGAATTGAAAAAATGGGAGGCGCGACAAGTAGAGGAGAAAATTCCTATGGTCTAGATATTACTTGTAAAGACATGAGAAACCTGAGGTTCGCTTTGAAACAGGAAGGCCACAGCAGAAGAGATATGTTTGAGATCCTCACGAGATACGCGTTTCCCCTGGCTCACAGTCTGCCATTATTTGCATTTTTAAATGAAGAAAAGTTTAACGTGGATGGATGGACAGTTTACAATCCAGTGGAAGAATACAGGAGGCAGGGCTTGCCCAATCACCATTGGAGAATAACTTTTATTAATAAGTGCTATGAGCTCTGTGACACTTACCCTGCTCTTTTGGTGGTTCCGTATCGTGCCTCAGATGATGACCTCCGGAGAGTTGCAACTTTTAGGTCCCGAAATCGAATTCCAGTGCTGTCATGGATTCATCCAGAAAATAAGACGGTCATTGTGCGTTGCAGTCAGCCTCTTGTCGGTATGAGTGGGAAACGAAATAAAGATGATGAGAAATATCTCGATGTTATCAGGGAGACTAATAAACAAATTTCTAAACTCACCATTTATGATGCAAGACCCAGCGTAAATGCAGTGGCCAACAAGGCAACAGGAGGAGGATATGAAAGTGATGATGCATATCATAACGCCGAACTTTTCTTCTTAGACATTCATAATATTCATGTTATGCGGGAATCTTTAAAAAAAGTGAAGGACATTGTTTATCCTAATGTAGAAGAATCTCATTGGTTGTCCAGTTTGGAGTCTACTCATTGGTTAGAACATATCAAGCTCGTTTTGACAGGAGCCATTCAAGTAGCAGACAAAGTTTCTTCAGGGAAGAGTTCAGTGCTTGTGCATTGCAGTGACGGATGGGACAGGACTGCTCAGCTGACATCCTTGGCCATGCTGATGTTGGATAGCTTCTATAGGAGCATTGAAGGGTTCGAAATACTGGTACAAAAAGAATGGATAAGTTTTGGACATAAATTTGCATCTCGAATAGGTCATGGTGATAAAAACCACACCGATGCTGACCGTTCTCCTATTTTTCTCCAGTTTATTGATTGTGTGTGGCAAATGTCAAAACAGTTCCCTACAGCTTTTGAATTCAATGAACAATTTTTGATTATAATTTTGGATCATCTGTATAGTTGCCGATTTGGTACTTTCTTATTCAACTGTGAATCTGCTCGAGAAAGACAGAAGGTTACAGAAAGGACTGTTTCTTTATGGTCACTGATAAACAGTAATAAAGAAAAATTCAAAAACCCCTTCTATACTAAAGAAATCAATCGAGTTTTATATCCAGTTGCCAGTATGCGTCACTTGGAACTCTGGGTGAATTACTACATTAGATGGAACCCCAGGATCAAGCAACAACAGCCGAATCCAGTGGAGCAGCGTTACATGGAGCTCTTAGCCTTACGCGACGAATACATAAAGCGGCTTGAGGAACTGCAGCTCGCCAACTCTGCCAAGCTTTCTGATCCCCCAACTTCACCTTCCAGTCCTTCGCAAATGATGCCCCATGTGCAAACTCACTTCTGACCGGTCCGAGGGCCCAGATCTAATTCACCCCACCAGTGCAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAAGCTCGCTTTCTTGCTGTCCAATTTCTATTAAAGGTTCCTTTGTTCCCTAAGTCCAACTACTAAACTGGGGGATATTATGAAGGGCCTTGAGCATCTGGATTCTGCCTAATAAAAAACATTTATTTTCATTGCAATGATGTATTTAAATTATTTCTGAATATTTTACTAAAAAGGGAATGTGGGAGGTCAGTGCATTTAAAACATAAAGAAATGAAGAGCTAGTTCAAACCTTGGGAAAATACACTATATCTTAAACTCCATGAAAGAAGGTGAGGCTGCAAACAGCTAATGCACATTGGCAACAGCCCCTGATGCCTATGCCTTATTCATCCCTCAGAAAAGGATTCAAGTAGAGGCTTGATTTGGAGGTTAAAGTTTTGCTATGCTGTATTTTACATTACTTATTGTTTTAGCTGTCCTCATGAATGTCTTTTCACTACCCATTTGCTTATCCTGCATCTCTCAGCCTTGACTCCACTCAGTTCTCTTGCTTAGAGATACCACCTTTCCCCTGAAGTGTTCCTTCCATGTTTTACGGCGAGATGGTTTCTCCTCGCCTGGCCACTCAGCCTTAGTTGTCTCTGTTGTCTTATAGAGGTCTACTTGAAGAAGGAAAAACAGGGGGCATGGTTTGACTGTCCTGTGAGCCCTTCTTCCCTGCCTCCCCCACTCACAGTGACCGGCCGCTCTAGGAGGAACCCCTAGTGATGGAGTTGGCCACTCCCTCTCTGCGCGCTCGCTCGCTCACTGAGGCCGGGCGACCAAAGGTCGCCCGACGCCCGGGCTTTGCCCGGGCGGCCTCAGTGAGCGAGCGAGCGCGCAGAGAGGGAGTGGCCAACCTAGAGGCCGCCAGGGCCATATTTCTCAATTTTTAAATTTTTCAAAAAAATTAATCCTTAATGTGCATATTTTTGAATTGTTAATATAACTTTTTGAGGTGATGTCTTCATGTGTTTCAACTACTTAAAAACTTTTAAACAGTATATAATAAAAAATCTTCCAGGCCACTCACACCTGTAATCCCAGCACTTTGGGAGGCTGAGGTGGGCAGATCACCTGAGGGCAGGAGTTCGAGACCAGCCTGGCCAATATATATATATTCATATATTCATATATATATATATATTCATATATTCATATATATATATTCATATATTCATATATATATATATATATATATATAGCAAAACCTCATCTCTAATAAAATACAAAAATTAGCTGAGCGTGGTGATGGATGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCTCTTGAACCTGGGAGGTGGAGGTTGCAGTGAGCTGAGATGGTGCCACTGCCCTCCAGCCTGAGTGACAGAGCGAGACTCGGTCTCCAAAAAAAAACAACAAAAAAATCTTCCATCCTTGTCTCCCATCCACCCCTTCCCCCCAGCATGTACTTGCAGACTTTATGCATATACAGTGAGTACTGTATATACACAAATAATAAAAAAATCATATATATAATATATGTAATTCCCCTTTACATGAAAGGTAGCACACTGGTCTGTACAGTCTGTCTGCACTGTGCTATTTCACTTTATATTTTTATAGTTTGACAGAGTTCTAACATTTCTTTTTTTTTTTTTTTAACAGAGTCTTGTTCCTGATTGTTAAATTTTAAAGCATCCTAAAGTTTGGTTTCACACTTGAATGAATACCATGTAAGGATTCACTTACATAGATGTGGTTGCCTGAATCTTAAGAATAAAATAACATTGTTTGTATTTATTTAAATTAGTGTTCCTTTTATGGTTTGCCTGAAAGCACAACAAAATCCTCACCAAGATATTACAATTATGACTCCCATACAGGTAAACTGTTTAGAGATTGGCAAGCACCTTTTAATGAAAGGAGTCAGCCAGCTTAGTGTGCAGTATTTATTTCTGCCGGAAGAGGGAGCTTCAGGGACAGACTTTGGTTTAGTCATGAAGCCTCCAGCACTCCCAAGCGGTTGTGGTTGACCAAGCAATTTATGCTTTTACCTTTCTACTTCCAGAGGCTTGTTTACTTATCAGTAAGCATTAATTTAGTGTCCCCTCAGATGCCTTTTACTTTCTTCTTTTCTGCCTAGAATAAGCTGCTCTTCCAATTTTGCAGCTACATGTTTCCACCCCAGTTGGAATTTCTCCATAACATCCATTGTAGCTATCCTTCAATCTACAGCCTCTATTTCCTGTTATAGCTGGTCAGGTCTAATCCCTCAAAATACTCTGTCCCCTGCTTCCCTTATCTGCTGGCCACCTTTTTCCCCCACATACACACTGCCATGTCCCACCCTTCACTCAAGTTGTTCCCTGCCACCTCAACAAATTTAAGTCCATAAAATAGAGTAAGTGTTCCTGACTGTTAAATTTTAAAGCATCCCAAAGTCTGATTTCACACTCGAATGAATACTATGTACGGATTCATTTACATAGATGCGGTTGCATGAGTCTTAACAAAAAAATAACATTATTTGTATTTATTCAAAGTACTGTCAAGATATAATGTCAAGACCTAATTCAAAGGTTCCACAAAGCCTTCCTTGACTGCCCCCAACGAAGATTATCCATTTTCCCTGAAATCCCATTGACTTTTCTATTTTGTAAGGAGGCTCGTGAGACTCTGTCTAAAAACAAAACAAAACAAAAAGAAACAATCAAACGGCTTGCTTCTGTTCTTTGATCTGCTAGTAAGCAAAAATTACACATGGTGACAGGAGCTATGTGAGGCTGTCAGGTTGAATGGGAGGAGTTTGGGATCCTGCTTGTGGATGGTTGGAAGAGGCTTTCGGGAAAGACAGTATTTATGTGAGACCTGGAAGATGGGCCTTAGCTTTGCAGAAGGTGGAGAGGCAGGAAATAGCACGGGGGCCCTGGGGCTGGAAGACTTGGGCATATTTGAGGAACAGAAAGGAGACCAGCATAACTGAGGTGGGAAAAGCATGTGAAGAGATGGGGCTGGAGGAGGCCGGGAGTGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCAAGGCAGGCGGATCATGAGCTCAGGAGATTGAGACCATCCTGGCTAACACGGTGAAACCCCCTCTCTACTAAAAATACAAAAAAAAAAAAAAAAAAAATTAGCTGGGCGTGGTGGCAGGAGCCTGTAGTCCCAGCTACCTGGGAGGCTGAGGCAGGAGAATGGCGTGAACCTGGAAGGCTGAGCTTGCAGTGAGCCGAGATTGCACCACTGCACTCCAGCCTGGGAGACAGAGAGAGACTCCCTCTCAAAAAAACAAACAAACGAAACAAAACAAAACAAAAATTAGCCAGGCGTGGTGGTATGCACCTGTAATCCCAGCTACTCGGGAGGTTGAGGCAGGAGAAACGCTTGAACTCAGGAGGCGGAGGTTGCAGTGAGCCGAGACTGCGCCACTGCACTCCAGCCTGGGTGACAGAGGGAGACTCCATCTCAAAAAAAAAAATTTTTTTTTTTTTACAAACGGTGTCTCCCTCTGTCGCCCAGGCTGGAGTGCAGTGGTGTGATCACAGCTCACTCCAGCCTCAACCTCCCCAGCTGAAGCCATCCTCTTGCCTCAGCCTCCTAAGTAGCTGGGACTACAGGCGCGCACCTCCAGGCTTGGCTCTTATTCTTTTTATTGTTTTTGAAACTATAGAACCTATTTTTAAAAAATGTTTTGGTTGTTTTTATTGCTGCTTTTCCTTTTGGGGTTAGAACACAAGTTTTGATGGGAAACAGGTTAGAACACATTCATCTCTTCCCATAGCGATGGTCATAGAAAAACGGGGCATATTTATAAACTCTCAGTTGATCTTAAAATGTGCAAAAGCTGCCGAACTCCTGGGAGTGAGCTCGAGCCCTGCAGGATCATTGTCACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGAACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGAGATTATCAAAAAGGATCTTCACCTAGATCCTTTTAAATTAAAAATGAAGTTTTAAATCAAGCCCAATCTGAATAATGTTACAACCAATTAACCAATTCTGATTAGAAAAACTCATCGAGCATCAAATGAAACTGCAATTTATTCATATCAGGATTATCAATACCATATTTTTGAAAAAGCCGTTTCTGTAATGAAGGAGAAAACTCACCGAGGCAGTTCCATAGGATGGCAAGATCCTGGTATCGGTCTGCGATTCCGACTCGTCCAACATCAATACAACCTATTAATTTCCCCTCGTCAAAAATAAGGTTATCAAGTGAGAAATCACCATGAGTGACGACTGAATCCGGTGAGAATGGCAAAAGTTTATGCATTTCTTTCCAGACTTGTTCAACAGGCCAGCCATTACGCTCGTCATCAAAATCACTCGCATCAACCAAACCGTTATTCATTCGTGATTGCGCCTGAGCGAGACGAAATACGCGATCGCTGTTAAAAGGACAATTACAAACAGGAATCGAATGCAACCGGCGCAGGAACACTGCCAGCGCATCAACAATATTTTCACCTGAATCAGGATATTCTTCTAATACCTGGAATGCTGTTTTTCCGGGGATCGCAGTGGTGAGTAACCATGCATCATCAGGAGTACGGATAAAATGCTTGATGGTCGGAAGAGGCATAAATTCCGTCAGCCAGTTTAGTCTGACCATCTCATCTGTAACATCATTGGCAACGCTACCTTTGCCATGTTTCAGAAACAACTCTGGCGCATCGGGCTTCCCATACAAGCGATAGATTGTCGCACCTGATTGCCCGACATTATCGCGAGCCCATTTATACCCATATAAATCAGCATCCATGTTGGAATTTAATCGCGGCCTCGACGTTTCCCGTTGAATATGGCTCATAACACCCCTTGTATTACTGTTTATGTAAGCAGACAGTTTTATTGTTCATGATGATATATTTTTATCTTGTGCAATGTAACATCAGAGATTTTGAGACACGGGCCAGAGCTGCA

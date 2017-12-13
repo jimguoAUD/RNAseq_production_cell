@@ -1,0 +1,2145 @@
+LOCUS       AudAAVhel~      21264 bp    DNA   circular     SYN     6-Nov-2017
+Plasmid Name = AudAAVhelp2-8
+Database Index Number = 4230
+Created by: Audentes
+DEFINITION  Single plasmid AAV helper for production of AAV serotype 2 
+            vectors with serotype 8 capsids, or AAV2-8.  Base design.
+            
+FEATURES             Location/Qualifiers
+
+     repeat_region   13832..13840
+                     /label="C_AAV_TR"
+                     /note="Stem of C stem loop from AAV ITR"
+     misc_feature    77..108
+                     /label="AAVp5_TATA"
+                     /note="AAV p5 promoter TATA sequences.  Transcription 
+                     starts at the next base."
+     CDS             143..2008
+                     /label="_AAV_Rep78_ACG"
+                     /note="Rep78 CDS from AAV serotype 2.  Modified ATG to 
+                     ACG."
+     intron          1729..2022
+                     /label="AAV2_VP1intron"
+                     /note="AAV intron with 1st splice acceptor, before VP1 
+                     atg."
+     CDS             1741..1989
+                     /label="_AAV_peptide"
+                     /note="Peptide of unknown function from intron of AAV 
+                     type 2."
+     intron          1729..2049
+                     /label="AAV_VP2intron"
+                     /note="AAV type 2 intron with second splice acceptor used 
+                     for VP2 , VP3, and the smaller Rep proteins."
+     misc_feature    665..699
+                     /label="AAVp19_TATA"
+                     /note="TATA sequences from AAVp19 promoter.  
+                     Transcription starts at the next base."
+     misc_feature    1645..1674
+                     /label="AAVp40_TATA"
+                     /note="TATA sequences from AAVp40 promoter.  
+                     Transcription starts at the next base."
+     CDS             2025..4241
+                     /label="_AAV8_VP1"
+                     /note="AAV serotype 8 VP1 gene, made in Wilson group by 
+                     fusing at Xho I site.  First 30 bp are identical between 
+                     1, 2, 6, and 8, so this form of grafting should not cause 
+                     problems.  Predicted 81.76 kDa protein."
+     CDS             2051..2074
+                     /label="RepExon2"
+                     /note="Exon2 of spliced Reps in serotype 2-8 helpers.  
+                     Codes for LARGQPL, as opposed to LARGHSL of wildtype 
+                     serotype 2."
+     source          4338..7754
+                     /label="_AdenoFragment1"
+                     /note="Fragment #1 of adenovirus genome, as appearing in 
+                     JTG constructed HGTI-adeno1 and derivatives.  Corresponds 
+                     roughly to 9842..13258 of Adenovirus serotype 5, which is 
+                     a Sal I - Dra I fragment."
+     source          7755..14439
+                     /label="_AdenoFragment2"
+                     /note="Fragment #2 of adenovirus genome, as appearing in 
+                     JTG constructed HGTI-adeno1 and derivatives.  Corresponds 
+                     roughly to 21442..28139 of Adenovirus serotype 5, which 
+                     is an Sgf I - Bgl II fragment."
+     source          14440..19434
+                     /label="_AdenoFragment3"
+                     /note="Fragment #3 of adenovirus genome, as appearing in 
+                     JTG constructed HGTI-adeno1 and derivatives.  Corresponds 
+                     roughly to 30821..35810 of Adenovirus serotype 5, which 
+                     is a Bgl II - Eci I fragment, truncated at Eci I 
+                     overhang."
+     polyA_signal    4242..4323
+                     /label="AAV2_polyA"
+                     /note="Sequence from AAV2 providing polyadenylation 
+                     function in LT-AAVhelp.  Represents 3 prime extent of AAV 
+                     sequences in that plasmid."
+     misc_RNA        19953..20059
+                     /label="RNA I"
+                     /note="RNA I transcript which inhibits RNA II 
+                     transcription and as a result down regulates subsequent 
+                     primer formation and plasmid replication.  Low copy 
+                     plasmids have a G immediately prior to this sequence, 
+                     whereas high copy plasmid have an A, which attenuates RNA 
+                     I transcription and thus increases RNA II transcription 
+                     and replication."
+     source          10..142
+                     /label="AAV2"
+                     /note="Extent of AAV sequences upstream of Rep in 
+                     LT-AAVhelp series of vectors designed by myself and RO 
+                     Snyder.  Extends from -99 relative to p5 transcription.
+                     "
+     CDS             2554..3147
+                     /label="_AAV8_AAP"
+                     /note="AAP capsid assembly factor described by Sonntag 
+                     Kleinschmidt PMID 20479244.  Serotype 8 version."
+     CDS             2436..4241
+                     /label="_AAV8_VP2"
+                     /note="AAV serotype 8 VP2, with native ACG initiation 
+                     codon.  Predicted 66.62 kDa protein."
+     CDS             2634..4241
+                     /label="_AAV8_VP3"
+                     /note="Serotype 8 VP3 coding sequence.  As originally 
+                     described by Gao & Wilson.  Predicted 59.89 kDa protein.
+                     "
+     CDS             8045..8659
+                     /label="23K"
+                     /note="23K coding sequence from Adenovirus serotype 5, as 
+                     found, but perhaps not read, in adenovirus helper 
+                     sequences for AAV production."
+     CDS             13480..14163
+                     /label="pVIII"
+                     /note="Protein VIII, from adenovirus serotype 5, as found 
+                     in Adenovirus helper sequences."
+     intron          12823..13024
+                     /label="33K_intron"
+                     /note="Intron generating 33K CDS in adenovirus serotype 
+                     5.  Partially spliced in adenovirus helper sequences."
+     CDS             12507..13091
+                     /label="22K"
+                     /note="22K protein translated from unspliced version of 
+                     33K transcript. "
+     exon            12440..12822
+                     /label="33K_exon1"
+                     /note="Exon 1 of 33K coding exon.  Starts with splice 
+                     acceptor, and ends with splice donor."
+     misc_RNA        12440..14478
+                     /label="RNA"
+                     /note="Generally transcribed region.  May be amalgamation 
+                     of transcription in both directions.  Potential to code 
+                     for 33K, 22K, and pVIII genes from L4 transcript.  Begins 
+                     with splice acceptor upstream of 22K and 33K coding ATG.  
+                     Transcription terminator is omited in the AAV helper 
+                     sequence construct."
+     CDS             13025..13392
+                     /label="33K_exon2_CDS"
+                     /note="Second exon coding sequences for 33K CDS."
+     CDS             12507..12822
+                     /label="33K_exon1_CDS"
+                     /note="First exon coding sequences for 33K CDS."
+     misc_RNA        10458..10644
+                     /label="RNA"
+                     /note="Mystery exon found transcribed in the adenoviral 
+                     derived helper sequences.  Not sure which strand, but 
+                     boundaries are pretty sharp."
+     misc_feature    complement(19931..19974)
+                     /label="High_copy"
+                     /note="Tag for High copy plasmid replication xxpUC18xx"
+     repeat_region   complement(13829..13837)
+                     /label="B_AAV_TR"
+                     /note="Stem of B stem loop from AAV ITR"
+     rep_origin      complement(19450..20122)
+                     /label="_ori"
+                     /note="Origin of replication for some high copy bacterial 
+                     plasmids derived from pMB9.  Loose match to ColE1 plasmid 
+                     sequence NC_001371, from 582..1254, which contains the 
+                     RNA II primer transcript.  Critical t mutation defining 
+                     high copy replication is in lower case."
+     misc_RNA        complement(19510..20063)
+                     /label="RNA II"
+                     /note="RNA II transcript of high copy plasmids, which 
+                     after degradation by RNAseH serves as a primer for 
+                     plasmid replication.  Transcription typically continues 
+                     beyond this sequence, pairs to the template DNA as an 
+                     RNA-DNA hybrid, and is cleaved at the end of this 
+                     sequence by RNAseH.  Opposing RNA I transcription causes 
+                     premature termination of this RNA downregulating 
+                     replication."
+     rep_origin      complement(19485..19509)
+                     /label="rep_origin"
+                     /note="Plasmid replication begins here, using an RNA 
+                     primer derived from the RNA II transcript cleaved just 
+                     upstream of this sequence by RNAseH."
+     CDS             complement(20277..21086)
+                     /label="_kan"
+                     /note="kan resistance, from another Invitrogen gateway 
+                     entry plasmid.  One bp different from the other gateway 
+                     plasmid."
+     exon            complement(8686..10353)
+                     /label="E2A_exon"
+                     /note="Coding exon of E2A transcript, coding for DBP, DNA 
+                     Binding Protein.  Last exon in the transcript.  
+                     Alternatively spliced from multiple exons upstream."
+     CDS             complement(8755..10344)
+                     /label="DBP"
+                     /note="DNA binding protein from Adenovirus Serotype 5, as 
+                     found in Adenovirus helper sequences used for making 
+                     AAV."
+     exon            complement(10980..11058)
+                     /label="E2A_exon"
+                     /note="Upstream exon of E2A, upstream of DBP CDS.  
+                     Perhaps initiator exon, based on RNAseq data.  Although 
+                     there is some evidence for an additional exon upstream as 
+                     annotated in record 1344."
+     exon            complement(13290..13357)
+                     /label="E2A_exon"
+                     /note="Upstream E2A exon from Adenovirus serotype 5, as 
+                     found in Adenovirus helper sequences.  RNAseq data 
+                     suggests some amount of this minus sense exon is buried 
+                     under the plus sense transcript from L4.  Only at the 
+                     3prime end, though.  5prime end is annotated based on my 
+                     maps based on published sequences, and is indicated there 
+                     as the initiation site for the E2A early transcript."
+     primer_bind     2025..2047
+                     /label="SJVL-470_MaxRead=929"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 60.0 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     ATGGCTGCCG ATGGTTATCT TCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     2275..2296
+                     /label="SJVL-471_MaxRead=834"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 60.4 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     AGGCGGGTGA CAATCCGTAC CT.  This primer matches this site 
+                     perfectly."
+     primer_bind     2525..2550
+                     /label="SJVL-472_MaxRead=864"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 60.2 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CGCCAGAAAA AGACTCAATT TTGGTC.  This primer matches this 
+                     site perfectly."
+     primer_bind     2775..2802
+                     /label="SJVL-473_MaxRead=891"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 62.7 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CCCACCTACA ACAACCACCT CTACAAGC.  This primer matches this 
+                     site perfectly."
+     primer_bind     3025..3047
+                     /label="SJVL-474_MaxRead=879"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 61.3 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CCATCGCCAA TAACCTCACC AGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     3275..3297
+                     /label="SJVL-475_MaxRead=818"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 62.1 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CTTCGAGGAC GTGCCTTTCC ACA.  This primer matches this site 
+                     perfectly."
+     primer_bind     3525..3547
+                     /label="SJVL-476_MaxRead=902"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 61.4 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     AGCAACTTTG CCTGGACTGC TGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     3775..3799
+                     /label="SJVL-477_MaxRead=767"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 62.2 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     ATAACTTGCA GCAGCAAAAC ACGGC.  This primer matches this 
+                     site perfectly."
+     primer_bind     4025..4053
+                     /label="SJVL-478_MaxRead=788"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 61.3 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     AAAGCTGAAC TCTTTCATCA CGCAATACA.  This primer matches 
+                     this site perfectly."
+     primer_bind     complement(2114..2134)
+                     /label="SJVL-479_MaxRead=938"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 60.9 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     TGCTGGTTGG CTTTGGGCTT C.  This primer matches this site 
+                     completely."
+     primer_bind     complement(2364..2384)
+                     /label="SJVL-480_MaxRead=865"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 60.8 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CTGGAAGACT GCTCGCCCGA G.  This primer matches this site 
+                     completely."
+     primer_bind     complement(2609..2634)
+                     /label="SJVL-481_MaxRead=917"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 62.1 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     TTGTATTAGG TCCCACACCA GAGGGC.  This primer matches this 
+                     site completely."
+     primer_bind     complement(2861..2884)
+                     /label="SJVL-482_MaxRead=769"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 61.8 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     AAGTCAAAAT ACCCCCAGGG GGTG.  This primer matches this 
+                     site completely."
+     primer_bind     complement(3118..3134)
+                     /label="SJVL-483_MaxRead=899"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 62.4 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CGCCGGGAAC GGAGGCA.  This primer matches this site 
+                     completely."
+     primer_bind     complement(3353..3384)
+                     /label="SJVL-484_MaxRead=825"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 60.4 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     TTGTTTGAGT CCGAGACAAG TAGTACAGGT AC.  This primer matches 
+                     this site completely."
+     primer_bind     complement(3610..3634)
+                     /label="SJVL-485_MaxRead=817"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 60.4 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     AAAAAACGCT CCTCGTCGTC TTTGT.  This primer matches this 
+                     site completely."
+     primer_bind     complement(3863..3884)
+                     /label="SJVL-486_MaxRead=843"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 60.1 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     GATGGGACCC TGCAGGTACA CG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(4111..4134)
+                     /label="SJVL-487_MaxRead=838"
+                     /note="AAV serotype 8 capsid sequencing project.  
+                     Perfect match Tm = 62.1 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     TGTACTGGAT CTCGGGGTTC CAGC.  This primer matches this 
+                     site completely."
+     primer_bind     233..254
+                     /label="SJVL-541_MaxRead=935"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.7 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is GCCGAGAAGG AATGGGAGTT GC.  This primer 
+                     matches this site perfectly."
+     primer_bind     483..510
+                     /label="SJVL-542_MaxRead=883"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 61.7 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is AAAAACTGAT TCAGAGAATT TACCGCGG.  This 
+                     primer matches this site perfectly."
+     primer_bind     733..755
+                     /label="SJVL-543_MaxRead=884"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.0 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is GCAGACGCAG GAGCAGAACA AAG.  This primer 
+                     matches this site perfectly."
+     primer_bind     983..1002
+                     /label="SJVL-544_MaxRead=940"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 61.4 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is CCCGACTACC TGGTGGGCCA .  This primer 
+                     matches this site perfectly."
+     primer_bind     1233..1256
+                     /label="SJVL-545_MaxRead=910"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.4 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is TTCCCTTCAA CGACTGTGTC GACA.  This primer 
+                     matches this site perfectly."
+     primer_bind     1483..1505
+                     /label="SJVL-546_MaxRead=901"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 62.9 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is ATTTGAACTC ACCCGCCGTC TGG.  This primer 
+                     matches this site perfectly."
+     primer_bind     1733..1758
+                     /label="SJVL-547_MaxRead=909"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 62.3 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is CAAAACAAAT GTTCTCGTCA CGTGGG.  This 
+                     primer matches this site perfectly."
+     primer_bind     complement(70..92)
+                     /label="SJVL-548_MaxRead=857"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.6 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is CACTCGGGCT TAAATACCCA GCG.  This primer 
+                     matches this site completely."
+     primer_bind     complement(321..342)
+                     /label="SJVL-549_MaxRead=917"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.2 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is CATTCCGTCA GAAAGTCGCG CT.  This primer 
+                     matches this site completely."
+     primer_bind     complement(571..592)
+                     /label="SJVL-550_MaxRead=873"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.0 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is CTCATCCACC ACCTTGTTCC CG.  This primer 
+                     matches this site completely."
+     primer_bind     complement(823..842)
+                     /label="SJVL-551_MaxRead=935"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 62.5 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is TGTCCACGAG CCACCCGACC .  This primer 
+                     matches this site completely."
+     primer_bind     complement(1069..1092)
+                     /label="SJVL-552_MaxRead=892"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 61.3 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is AGAAAGACGG AAGCCGCATA TTGG.  This primer 
+                     matches this site completely."
+     primer_bind     complement(1324..1342)
+                     /label="SJVL-553_MaxRead=908"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.3 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is GCGCACCTTG CTTCCTCCG.  This primer 
+                     matches this site completely."
+     primer_bind     complement(1569..1592)
+                     /label="SJVL-554_MaxRead=913"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.4 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is ATTCATGCTC CACCTCAACC ACGT.  This primer 
+                     matches this site completely."
+     primer_bind     complement(1814..1842)
+                     /label="SJVL-555_MaxRead=897"
+                     /note="AAV serotype 2 Rep.  Perfect match Tm = 60.7 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is TCTTTCTGTC CGTGAGTGAA GCAGATATT.  This 
+                     primer matches this site completely."
+     primer_bind     2769..2791
+                     /label="SJVL-556_MaxRead=904"
+                     /note="AAV8 co sequencing.  Perfect match Tm = 63.6 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is GCCCTGCCCA CCTACAACAA CCA.  This primer 
+                     matches this site perfectly."
+     primer_bind     complement(4247..4273)
+                     /label="SJVL-681_MaxRead=741"
+                     /note="AAV VP1 3prime, after stop codon.  Perfect match 
+                     Tm = 55.7 C, although for oligos less than 35 bp, only 
+                     the 3 prime 17 nt must match to trigger annotation.  The 
+                     actual sequence of the primer is ACGAATTAAC CGGTTTATTG 
+                     ATTAACA.  This primer does not match this site 
+                     completely."
+     primer_bind     complement(4268..4293)
+                     /label="SJVL-683_MaxRead=489"
+                     /note="AAV VP1 3prime, after stop codon.  Perfect match 
+                     Tm = 56.1 C, although for oligos less than 35 bp, only 
+                     the 3 prime 17 nt must match to trigger annotation.  The 
+                     actual sequence of the primer is GAGACCAAAG TTCAACTGAA 
+                     ACGAAT.  This primer matches this site completely."
+     primer_bind     1948..1970
+                     /label="SJVL-684_MaxRead=919"
+                     /note="AAV VP1 serotype 2 primers for sequencing.  
+                     Perfect match Tm = 67.4 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     CGCTTGCACT GCCTGCGATC TGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     complement(2678..2701)
+                     /label="SJVL-690_MaxRead=936"
+                     /note="AAV VP1 serotype 2 primers for sequencing.  
+                     Perfect match Tm = 65.2 C, although for oligos less than 
+                     35 bp, only the 3 prime 17 nt must match to trigger 
+                     annotation.  The actual sequence of the primer is 
+                     GAGGAATTAC CCACTCCGTC GGCG.  This primer does not match 
+                     this site completely."
+     primer_bind     complement(19592..19612)
+                     /label="SJVL-787_MaxRead=821"
+                     /note="plasmid backbone primer for sequencing 
+                     scAAVv2-GFP.  Perfect match Tm = 57.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGGGGAAACG CCTGGTATCT T.  This primer matches this 
+                     site completely."
+     primer_bind     complement(19630..19651)
+                     /label="SJVL-788_MaxRead=550"
+                     /note="plasmid backbone primer for sequencing 
+                     scAAVv2-GFP.  Perfect match Tm = 62.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGCAGGGTCG GAACAGGAGA GC.  This primer matches this 
+                     site completely."
+     primer_bind     complement(162..181)
+                     /label="SJVL-941_MaxRead=735"
+                     /note="AAV Rep primer facing left.  Use as right primer 
+                     for detecting ITR - Rep helper recombinations.  As per 
+                     Snyder design.  Perfect match Tm = 51.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCTGGGGACC TTAATCACAA .  This primer matches this site 
+                     completely."
+     primer_bind     complement(19479..19500)
+                     /label="SJVL-1284_MaxRead=746"
+                     /note="Sequencing plasmid backbones.  Perfect match Tm 
+                     = 61.7 C, although for oligos less than 35 bp, only the 3 
+                     prime 17 nt must match to trigger annotation.  The actual 
+                     sequence of the primer is ACGCGGCCTT TTTACGGTTC CT.  This 
+                     primer matches this site completely."
+     primer_bind     4498..4514
+                     /label="SJVL-1621_MaxRead=724"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGCATCTATC GCTGCGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     4675..4691
+                     /label="SJVL-1622_MaxRead=764"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAAGCGGTGG TATGCGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     4834..4853
+                     /label="SJVL-1623_MaxRead=767"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTATCCCACC AAAAAGTGCG .  This primer matches this site 
+                     perfectly."
+     primer_bind     5007..5023
+                     /label="SJVL-1624_MaxRead=801"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TCCAGATGTT GCGCAGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     5175..5191
+                     /label="SJVL-1625_MaxRead=80"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTTCGAGCCC CGTATCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     5357..5376
+                     /label="SJVL-1626_MaxRead=780"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCGAAAGCAT TAAGTGGCTC .  This primer matches this site 
+                     perfectly."
+     primer_bind     5537..5554
+                     /label="SJVL-1627_MaxRead=745"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTTTCCCAGA TGCATCCG.  This primer matches this site 
+                     perfectly."
+     primer_bind     5719..5738
+                     /label="SJVL-1628_MaxRead=730"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTACCTGGAC TTGGAGGAGG .  This primer matches this site 
+                     perfectly."
+     primer_bind     5884..5900
+                     /label="SJVL-1629_MaxRead=768"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAAGTTCCAC GCAGGGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     6066..6085
+                     /label="SJVL-1630_MaxRead=763"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTAACAACCA CGTGCGTACG .  This primer matches this site 
+                     perfectly."
+     primer_bind     6245..6263
+                     /label="SJVL-1631_MaxRead=785"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATAGTAGAGC CCGAGGGCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     6426..6445
+                     /label="SJVL-1632_MaxRead=751"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGGTAAAGAT CGAGGGGTTC .  This primer matches this site 
+                     perfectly."
+     primer_bind     6607..6625
+                     /label="SJVL-1633_MaxRead=745"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CGATAGAGAG GCCGAGTCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     6789..6808
+                     /label="SJVL-1634_MaxRead=774"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 46.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ACTAAGCGGT GATGTTTCTG .  This primer matches this site 
+                     perfectly."
+     primer_bind     6972..6988
+                     /label="SJVL-1635_MaxRead=766"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCTCTCCGCA ATTCTGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     7145..7161
+                     /label="SJVL-1636_MaxRead=794"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGACCAACCT GGACCGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     7327..7346
+                     /label="SJVL-1637_MaxRead=770"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTGACTGAGA CACCGCAAAG .  This primer matches this site 
+                     perfectly."
+     primer_bind     7491..7508
+                     /label="SJVL-1638_MaxRead=785"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTTGCTGACG CCCAACTC.  This primer matches this site 
+                     perfectly."
+     primer_bind     7645..7663
+                     /label="SJVL-1639_MaxRead=747"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATTACAAGTG TCAGCCGCG.  This primer matches this site 
+                     perfectly."
+     primer_bind     7829..7846
+                     /label="SJVL-1640_MaxRead=744"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TCTCTACGCC AACTCCGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     8008..8028
+                     /label="SJVL-1641_MaxRead=784"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CATAAAGAAG CAAGCAACAT C.  This primer matches this 
+                     site perfectly."
+     primer_bind     8191..8208
+                     /label="SJVL-1642_MaxRead=769"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GACTGGGGGC GTACACTG.  This primer matches this site 
+                     perfectly."
+     primer_bind     8375..8392
+                     /label="SJVL-1643_MaxRead=745"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ACCCAAAGCG TACAGGGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     8557..8576
+                     /label="SJVL-1644_MaxRead=803"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGAACAGCTC TACAGCTTCC .  This primer matches this site 
+                     perfectly."
+     primer_bind     8723..8742
+                     /label="SJVL-1645_MaxRead=813"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 53.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTATTTACCC CCACCCTTGC .  This primer matches this site 
+                     perfectly."
+     primer_bind     8906..8923
+                     /label="SJVL-1646_MaxRead=643"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AACGCGTTTA GCAGGTCG.  This primer matches this site 
+                     perfectly."
+     primer_bind     9089..9107
+                     /label="SJVL-1647_MaxRead=774"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCGAACGGAG TCAACTTTG.  This primer matches this site 
+                     perfectly."
+     primer_bind     9271..9289
+                     /label="SJVL-1648_MaxRead=665"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GAACATGCCG CAAGACTTG.  This primer matches this site 
+                     perfectly."
+     primer_bind     9448..9466
+                     /label="SJVL-1649_MaxRead=758"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CATTTCAATC ACGTGCTCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     9630..9649
+                     /label="SJVL-1650_MaxRead=749"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TCTTGTTGCT GGTGAAGGTC .  This primer matches this site 
+                     perfectly."
+     primer_bind     9814..9830
+                     /label="SJVL-1651_MaxRead=721"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GATCGGCACA CTCAGCG.  This primer matches this site 
+                     perfectly."
+     primer_bind     9994..10013
+                     /label="SJVL-1652_MaxRead=761"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTGTAGCGCC ACATCTTCTC .  This primer matches this site 
+                     perfectly."
+     primer_bind     10173..10191
+                     /label="SJVL-1653_MaxRead=750"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTTCCTCGTC CTCGGACTC.  This primer matches this site 
+                     perfectly."
+     primer_bind     10350..10372
+                     /label="SJVL-1654_MaxRead=741"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TCTCCTATAG GCAGAAAAAG ATC.  This primer matches this 
+                     site perfectly."
+     primer_bind     10533..10549
+                     /label="SJVL-1655_MaxRead=745"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAGACGACGA GGACCGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     10713..10729
+                     /label="SJVL-1656_MaxRead=723"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAGAGCGCAG CGATGTG.  This primer matches this site 
+                     perfectly."
+     primer_bind     10894..10913
+                     /label="SJVL-1657_MaxRead=767"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCAAAACTGC AAGATACCCC .  This primer matches this site 
+                     perfectly."
+     primer_bind     11074..11094
+                     /label="SJVL-1658_MaxRead=743"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CGAAAATGAA AGTCACTCTG G.  This primer matches this 
+                     site perfectly."
+     primer_bind     11254..11273
+                     /label="SJVL-1659_MaxRead=770"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGATGCAAAT TTGCAAGAAC .  This primer matches this site 
+                     perfectly."
+     primer_bind     11437..11453
+                     /label="SJVL-1660_MaxRead=758"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCAGCGCAAG CTAGAGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     11618..11635
+                     /label="SJVL-1661_MaxRead=729"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTCCGCGACT GCGTTTAC.  This primer matches this site 
+                     perfectly."
+     primer_bind     11792..11809
+                     /label="SJVL-1662_MaxRead=711"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATCATTTTCC CCGAACGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     11976..11993
+                     /label="SJVL-1663_MaxRead=761"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGGGCCACTG CTACCTTC.  This primer matches this site 
+                     perfectly."
+     primer_bind     12153..12169
+                     /label="SJVL-1664_MaxRead=755"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTGAGCTGCA GGGTCCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     12338..12354
+                     /label="SJVL-1665_MaxRead=747"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CAGGGCCACA TTCTTGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     12514..12531
+                     /label="SJVL-1666_MaxRead=372"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCAAAAAGAA GCTGCAGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     12671..12687
+                     /label="SJVL-1667_MaxRead=761"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AACACCGTCA CCCTCGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     12853..12870
+                     /label="SJVL-1668_MaxRead=723"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAGAGCAACA ACAGCGCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     13023..13039
+                     /label="SJVL-1669_MaxRead=766"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGCCCATACT GCACCGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     13200..13220
+                     /label="SJVL-1670_MaxRead=756"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GATTTTTCCC ACTCTGTATG C.  This primer matches this 
+                     site perfectly."
+     primer_bind     13382..13401
+                     /label="SJVL-1671_MaxRead=788"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTAAGGACTA GTTTCGCGCC .  This primer matches this site 
+                     perfectly."
+     primer_bind     13562..13583
+                     /label="SJVL-1672_MaxRead=757"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CAACCCGAAT AAACTACATG AG.  This primer matches this 
+                     site perfectly."
+     primer_bind     13744..13763
+                     /label="SJVL-1673_MaxRead=774"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTGGTACTTC CCAGAGACGC .  This primer matches this site 
+                     perfectly."
+     primer_bind     13928..13945
+                     /label="SJVL-1674_MaxRead=736"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51 C, although for oligos 
+                     less than 35 bp, only the 3 prime 17 nt must match to 
+                     trigger annotation.  The actual sequence of the primer is 
+                     GGACATTTCA GATCGGCG.  This primer matches this site 
+                     perfectly."
+     primer_bind     14104..14124
+                     /label="SJVL-1675_MaxRead=732"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCGGATCAAT TTATTCCTAA C.  This primer matches this 
+                     site perfectly."
+     primer_bind     14276..14292
+                     /label="SJVL-1676_MaxRead=765"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATCATATCGA GGGCCCG.  This primer matches this site 
+                     perfectly."
+     primer_bind     14423..14443
+                     /label="SJVL-1677_MaxRead=758"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ACCCTGGATT ACATCAAGAT C.  This primer matches this 
+                     site perfectly."
+     primer_bind     14603..14622
+                     /label="SJVL-1678_MaxRead=804"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGAATGTCAG TTTCCTCCTG .  This primer matches this site 
+                     perfectly."
+     primer_bind     14780..14797
+                     /label="SJVL-1679_MaxRead=710"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CAAGAGAGTC CCCCTGGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     14962..14981
+                     /label="SJVL-1680_MaxRead=719"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AATATCTGCA CCCCTCACAG .  This primer matches this site 
+                     perfectly."
+     primer_bind     15142..15159
+                     /label="SJVL-1681_MaxRead=718"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AACATCAGGC CCCCTCAC.  This primer matches this site 
+                     perfectly."
+     primer_bind     15325..15342
+                     /label="SJVL-1682_MaxRead=803"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CGTAGCAACT GGTCCAGG.  This primer matches this site 
+                     perfectly."
+     primer_bind     15491..15512
+                     /label="SJVL-1683_MaxRead=716"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GATGCTCAAA ACCAACTAAA TC.  This primer matches this 
+                     site perfectly."
+     primer_bind     15673..15692
+                     /label="SJVL-1684_MaxRead=719"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CATTAATGCA GGAGATGGGC .  This primer matches this site 
+                     perfectly."
+     primer_bind     15852..15873
+                     /label="SJVL-1685_MaxRead=745"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATAAGCTAAC TTTGTGGACC AC.  This primer matches this 
+                     site perfectly."
+     primer_bind     16010..16031
+                     /label="SJVL-1686_MaxRead=787"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGAACAGTTC AAAGTGCTCA TC.  This primer matches this 
+                     site perfectly."
+     primer_bind     16190..16211
+                     /label="SJVL-1687_MaxRead=721"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAAACTGCCA AAAGTAACAT TG.  This primer matches this 
+                     site perfectly."
+     primer_bind     16368..16389
+                     /label="SJVL-1688_MaxRead=767"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCACATCCTC TTACACTTTT TC.  This primer matches this 
+                     site perfectly."
+     primer_bind     16552..16568
+                     /label="SJVL-1689_MaxRead=737"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TCAACCTGCC ACCTCCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     16735..16751
+                     /label="SJVL-1690_MaxRead=739"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGTCGCTGTC CAGCTGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     16917..16936
+                     /label="SJVL-1691_MaxRead=741"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AACATGGCAG TGGTCTCCTC .  This primer matches this site 
+                     perfectly."
+     primer_bind     17100..17116
+                     /label="SJVL-1692_MaxRead=693"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ACAGAACCCA CGTGGCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     17269..17285
+                     /label="SJVL-1693_MaxRead=742"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGCTGGCCAA AACCTGC.  This primer matches this site 
+                     perfectly."
+     primer_bind     17451..17469
+                     /label="SJVL-1694_MaxRead=679"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATATCCCAGG GAACAACCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     17635..17652
+                     /label="SJVL-1695_MaxRead=707"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCCGAGACAA CCGAGATC.  This primer matches this site 
+                     perfectly."
+     primer_bind     17800..17816
+                     /label="SJVL-1696_MaxRead=757"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTCAAAGCAT CCAGGCG.  This primer matches this site 
+                     perfectly."
+     primer_bind     17979..18000
+                     /label="SJVL-1697_MaxRead=719"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCAAAAGATT ATCCAAAACC TC.  This primer matches this 
+                     site perfectly."
+     primer_bind     18156..18178
+                     /label="SJVL-1698_MaxRead=725"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CAGGGTGAAT CTCCTCTATA AAC.  This primer matches this 
+                     site perfectly."
+     primer_bind     18337..18356
+                     /label="SJVL-1699_MaxRead=776"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TCAGGTTCCT CACAGACCTG .  This primer matches this site 
+                     perfectly."
+     primer_bind     18520..18538
+                     /label="SJVL-1700_MaxRead=756"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGAGCTATGC TAACCAGCG.  This primer matches this site 
+                     perfectly."
+     primer_bind     18702..18721
+                     /label="SJVL-1701_MaxRead=782"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TCTCTCAAAC ATGTCTGCGG .  This primer matches this site 
+                     perfectly."
+     primer_bind     18887..18903
+                     /label="SJVL-1702_MaxRead=733"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTCGGTCATG TCCGGAG.  This primer matches this site 
+                     perfectly."
+     primer_bind     19069..19086
+                     /label="SJVL-1703_MaxRead=737"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTGAAAAACC CTCCTGCC.  This primer matches this site 
+                     perfectly."
+     primer_bind     19244..19266
+                     /label="SJVL-1704_MaxRead=726"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGCAGAGCGA GTATATATAG GAC.  This primer matches this 
+                     site perfectly."
+     primer_bind     19612..19628
+                     /label="SJVL-1706_MaxRead=719"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTGGAAGCTC CCTCGTG.  This primer matches this site 
+                     perfectly."
+     primer_bind     19793..19811
+                     /label="SJVL-1707_MaxRead=761"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTGCGCCTTA TCCGGTAAC.  This primer matches this site 
+                     perfectly."
+     primer_bind     19975..19994
+                     /label="SJVL-1708_MaxRead=769"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGCTGAAGCC AGTTACCTTC .  This primer matches this site 
+                     perfectly."
+     primer_bind     20157..20176
+                     /label="SJVL-1709_MaxRead=754"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 46.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TAAGGGATTT TGGTCATGAG .  This primer matches this site 
+                     perfectly."
+     primer_bind     complement(20077..20095)
+                     /label="SJVL-1741_MaxRead=785"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GATCCTTTTT TTCTGCGCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(19896..19915)
+                     /label="SJVL-1742_MaxRead=785"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AACTCTGTAG CACCGCCTAC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(19714..19734)
+                     /label="SJVL-1743_MaxRead=763"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCGAACTGAG ATACCTACAG C.  This primer matches this 
+                     site completely."
+     primer_bind     complement(19533..19552)
+                     /label="SJVL-1744_MaxRead=759"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CGATTTTTGT GATGCTCGTC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(19352..19371)
+                     /label="SJVL-1745_MaxRead=722"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.9939628776 C, although 
+                     for oligos less than 35 bp, only the 3 prime 17 nt must 
+                     match to trigger annotation.  The actual sequence of the 
+                     primer is CGATTTGAGG AAGTTGTGGG .  This primer matches 
+                     this site completely."
+     primer_bind     complement(19178..19199)
+                     /label="SJVL-1746_MaxRead=743"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CGAGTGGTGT TTTTTTAATA GG.  This primer matches this 
+                     site completely."
+     primer_bind     complement(18998..19018)
+                     /label="SJVL-1747_MaxRead=729"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 46.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCTGTAATGT TGTCTCTACG C.  This primer matches this 
+                     site completely."
+     primer_bind     complement(18832..18849)
+                     /label="SJVL-1748_MaxRead=780"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTTTTTACGG TCACGCCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(18650..18669)
+                     /label="SJVL-1749_MaxRead=763"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCTTACCTGC CTTTATCTGC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(18470..18486)
+                     /label="SJVL-1750_MaxRead=803"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGTCATGGTT CCTGGCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(18293..18310)
+                     /label="SJVL-1751_MaxRead=769"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GAGGCTGAAG GTGGAGGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(18118..18134)
+                     /label="SJVL-1752_MaxRead=771"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ACTTGGACGT GAGGGCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(17936..17952)
+                     /label="SJVL-1753_MaxRead=754"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGCTCTTCCC GCTCCTC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(17751..17768)
+                     /label="SJVL-1754_MaxRead=749"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CGATCTAAGC GGCGAGAC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(17569..17586)
+                     /label="SJVL-1755_MaxRead=786"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCGCTACCAT ACTGGAGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(17387..17404)
+                     /label="SJVL-1756_MaxRead=784"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTGTGCCTGT GTTGTGCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(17206..17225)
+                     /label="SJVL-1757_MaxRead=725"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TATATGGTAC CGGGAGGTGG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(17025..17041)
+                     /label="SJVL-1758_MaxRead=759"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTGGTGCTGT GCTGCAG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(16840..16856)
+                     /label="SJVL-1759_MaxRead=726"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCGCCCTATC CTGATGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(16661..16677)
+                     /label="SJVL-1760_MaxRead=739"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 45.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GACAGGAAAC CGTGTGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(16478..16498)
+                     /label="SJVL-1761_MaxRead=719"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGTGGTGGGG CTATACTACT G.  This primer matches this 
+                     site completely."
+     primer_bind     complement(16299..16321)
+                     /label="SJVL-1762_MaxRead=752"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49 C, although for oligos 
+                     less than 35 bp, only the 3 prime 17 nt must match to 
+                     trigger annotation.  The actual sequence of the primer is 
+                     TGACATAGAG TATGCACTTG GAG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(16121..16140)
+                     /label="SJVL-1763_MaxRead=757"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTTGTATAGG CTGTGCCTTC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(15939..15959)
+                     /label="SJVL-1764_MaxRead=791"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTATTTGACT GCCACATTTT G.  This primer matches this 
+                     site completely."
+     primer_bind     complement(15758..15778)
+                     /label="SJVL-1765_MaxRead=737"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGCCTTGTTT GAATCAAATT C.  This primer matches this 
+                     site completely."
+     primer_bind     complement(15578..15598)
+                     /label="SJVL-1766_MaxRead=728"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGCTGTAAAC AAGTAAAGGC C.  This primer matches this 
+                     site completely."
+     primer_bind     complement(15398..15417)
+                     /label="SJVL-1767_MaxRead=723"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGCATATTGC CTTGTGAATC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(15216..15235)
+                     /label="SJVL-1768_MaxRead=737"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTCAATGCCC AAGCTACCAG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(15034..15053)
+                     /label="SJVL-1769_MaxRead=737"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATTGCATGGT GAGTGTGTTG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(14852..14868)
+                     /label="SJVL-1770_MaxRead=730"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCGTTGCCCA TTTTGAG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(14670..14687)
+                     /label="SJVL-1771_MaxRead=666"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTTCAGACGG TCTTGCGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(14496..14516)
+                     /label="SJVL-1772_MaxRead=755"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGGACAGAAA TTTGCTAACT G.  This primer matches this 
+                     site completely."
+     primer_bind     complement(14319..14336)
+                     /label="SJVL-1773_MaxRead=768"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTACGGGCAA GCTCTCCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(14147..14164)
+                     /label="SJVL-1774_MaxRead=776"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTCAGTCGTA GCCGTCCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(13968..13984)
+                     /label="SJVL-1775_MaxRead=720"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GGATTGCCTG ACGAGGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(13784..13800)
+                     /label="SJVL-1776_MaxRead=767"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTGCGCCCCT GAGTTAG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(13599..13615)
+                     /label="SJVL-1777_MaxRead=745"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CGTTGACCCG GGATATC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(13417..13436)
+                     /label="SJVL-1778_MaxRead=738"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGATGACGTA GTTTTCGCGC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(13235..13251)
+                     /label="SJVL-1779_MaxRead=765"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTGTTCTTGG CCCCTGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(13058..13074)
+                     /label="SJVL-1780_MaxRead=414"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTTCTGTGTG GCCGCTG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(12891..12908)
+                     /label="SJVL-1781_MaxRead=760"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TATGGCGTTC TTGTGCCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(12708..12724)
+                     /label="SJVL-1782_MaxRead=758"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTTGCCGATT TCTGGGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(12544..12560)
+                     /label="SJVL-1783_MaxRead=752"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTCCTCCTCG TCCGTGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(12361..12378)
+                     /label="SJVL-1784_MaxRead=766"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCTTTGTTGA TGGCTTGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(12191..12208)
+                     /label="SJVL-1785_MaxRead=729"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GAGTTTCAAC CCCGGAGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(12007..12026)
+                     /label="SJVL-1786_MaxRead=732"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 46.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CAGAGTGGTA GGCAAGGTAG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(11825..11844)
+                     /label="SJVL-1787_MaxRead=735"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAGTCTGGCA GACCCTGTTG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(11646..11663)
+                     /label="SJVL-1788_MaxRead=735"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCGTCTGCCA GGTGTAGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(11462..11481)
+                     /label="SJVL-1789_MaxRead=791"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCCTGTCGAA AGGTGTAGTG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(11295..11311)
+                     /label="SJVL-1790_MaxRead=750"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTGCTCGTCG CCAACTG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(11124..11141)
+                     /label="SJVL-1791_MaxRead=735"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTAGTACGGC TAGGCGCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(10942..10958)
+                     /label="SJVL-1792_MaxRead=705"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AGGCCAGCTG CTTGTCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(10757..10775)
+                     /label="SJVL-1793_MaxRead=703"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATAGGTGGCG TTCGTAGGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(10574..10592)
+                     /label="SJVL-1794_MaxRead=745"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTGCGTTGTC CTGGTCTTG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(10400..10417)
+                     /label="SJVL-1795_MaxRead=772"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52 C, although for oligos 
+                     less than 35 bp, only the 3 prime 17 nt must match to 
+                     trigger annotation.  The actual sequence of the primer is 
+                     CTCAGAGGGG GCGGTTAG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(10252..10269)
+                     /label="SJVL-1796_MaxRead=0"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATGGAGGACG TGTCGTCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(10070..10089)
+                     /label="SJVL-1797_MaxRead=784"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAGAAAAAGA AGCGCCCTTC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(9892..9908)
+                     /label="SJVL-1798_MaxRead=741"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CAGTGGCGCG TGGTATG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(9708..9727)
+                     /label="SJVL-1799_MaxRead=716"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ACTACTGCCT GACCAAGTGG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(9548..9564)
+                     /label="SJVL-1800_MaxRead=722"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAGCATCACG AGCCCAC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(9371..9387)
+                     /label="SJVL-1801_MaxRead=700"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTGAAGAACC GGTGGGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(9189..9207)
+                     /label="SJVL-1802_MaxRead=318"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TATCCTAACG CCCAGACCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(9032..9048)
+                     /label="SJVL-1803_MaxRead=722"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GACAAGAGCG TGCTGGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(8861..8879)
+                     /label="SJVL-1804_MaxRead=716"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAAACTTCAC CGAGCTGCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(8679..8698)
+                     /label="SJVL-1805_MaxRead=743"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 47.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCATTTGCCT TTATTGAAAG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(8497..8514)
+                     /label="SJVL-1806_MaxRead=749"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATGGAGTTGG GTACCCCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(8323..8339)
+                     /label="SJVL-1807_MaxRead=729"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAGCAATGGC GCTACGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(8141..8160)
+                     /label="SJVL-1808_MaxRead=812"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCGAGCTTGT GTGGAGAAAC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(7961..7977)
+                     /label="SJVL-1809_MaxRead=789"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 46.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCAGGTACAC GGTTTCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(7778..7800)
+                     /label="SJVL-1810_MaxRead=772"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCATGGACAT AAAGTTACTG GAG.  This primer matches this 
+                     site completely."
+     primer_bind     complement(7599..7615)
+                     /label="SJVL-1811_MaxRead=793"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCTGACCTAT GGCCTCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(7414..7433)
+                     /label="SJVL-1812_MaxRead=744"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.3 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTTTTGAAAG CCTGGCTCAG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(7233..7251)
+                     /label="SJVL-1813_MaxRead=766"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GAAGGCGTTT AGTGCAACC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(7055..7071)
+                     /label="SJVL-1814_MaxRead=736"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GATGGCCCTG TTTTCGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(6870..6886)
+                     /label="SJVL-1815_MaxRead=775"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CCGTGGAGTT AAGGCCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(6735..6751)
+                     /label="SJVL-1816_MaxRead=780"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATATTCCTCC ACGCCGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(6558..6574)
+                     /label="SJVL-1817_MaxRead=732"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.4 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GCTGTGCATC AGCTCGC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(6373..6390)
+                     /label="SJVL-1818_MaxRead=786"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.2 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TTGCGGGCGT AAAACTTG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(6190..6209)
+                     /label="SJVL-1819_MaxRead=759"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TGCTGTGCTG CACTATAAGG .  This primer matches this site 
+                     completely."
+     primer_bind     complement(6008..6027)
+                     /label="SJVL-1820_MaxRead=773"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 52.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is TCGTATGCGG TTACCAGGTC .  This primer matches this site 
+                     completely."
+     primer_bind     complement(5826..5842)
+                     /label="SJVL-1821_MaxRead=109"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAACAGGTTC TGCCGCG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(5644..5660)
+                     /label="SJVL-1822_MaxRead=762"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 49.9 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATGTCGCCCC TCCTGAC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(5467..5483)
+                     /label="SJVL-1823_MaxRead=768"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ATGACGGGGA GGCAAAC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(5296..5312)
+                     /label="SJVL-1824_MaxRead=733"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.6 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is AAGCTAGCGC AGCAGCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(5116..5132)
+                     /label="SJVL-1825_MaxRead=804"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.0 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is ACCACGGAAG AGTGCCC.  This primer matches this site 
+                     completely."
+     primer_bind     complement(4934..4954)
+                     /label="SJVL-1826_MaxRead=735"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 48.5 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GATGTCCAGG TACATCTACG G.  This primer matches this 
+                     site completely."
+     primer_bind     complement(4753..4771)
+                     /label="SJVL-1827_MaxRead=767"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.7 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is GTACACCGAG CTCTCGCAG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(4574..4590)
+                     /label="SJVL-1828_MaxRead=761"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 50.8 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CTTCAGCCGA TGAGGGG.  This primer matches this site 
+                     completely."
+     primer_bind     complement(4397..4413)
+                     /label="SJVL-1829_MaxRead=759"
+                     /note="Seq of sequencing primers for sequencing 
+                     pHGTI-adeno1 and plasmids containing Adenoviral 
+                     helpers.  Perfect match Tm = 51.1 C, although for 
+                     oligos less than 35 bp, only the 3 prime 17 nt must match 
+                     to trigger annotation.  The actual sequence of the primer 
+                     is CAAAACGAAG CCTGGGG.  This primer matches this site 
+                     completely."
+     primer_bind     19444..19465
+                     /label="Aud-32_MaxRead="
+                     /note="Ori. pAud-Des-MTM1  Perfect match Tm = 51.8 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is ATTGTCACAT GTGAGCAAAA GG.  This primer 
+                     matches this site perfectly."
+     primer_bind     complement(20838..20858)
+                     /label="Aud-47_MaxRead="
+                     /note="KAN1-FP - RA  Perfect match Tm = 55.5 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is ATGCCTCTTC CGACCATCAA G.  This primer 
+                     matches this site completely."
+     primer_bind     complement(20978..20995)
+                     /label="Aud-52_MaxRead="
+                     /note="KAN1-RP - RA.Reverse Primer for ddPCR 
+                     quantification of residual producation plasmid that 
+                     targets Kanamycin   Perfect match Tm = 58.1 C, although 
+                     for oligos less than 35 bp, only the 3 prime 17 nt must 
+                     match to trigger annotation.  The actual sequence of the 
+                     primer is TCGGGCAATC AGGTGCGA.  This primer matches this 
+                     site completely."
+     primer_bind     complement(20930..20956)
+                     /label="Aud-56_MaxRead="
+                     /note="KAN1-Probe - RA  Perfect match Tm = 69.6 C, 
+                     although for oligos less than 35 bp, only the 3 prime 17 
+                     nt must match to trigger annotation.  The actual sequence 
+                     of the primer is AGCCCGATGC GCCAGAGTTG TTTCTGA.  This 
+                     primer matches this site completely."
+^^
+CGTCGACGGGAGGTCCTGTATTAGAGGTCACGTGAGTGTTTTGCGACATTTTGCGACACCATGTGGTCACGCTGGGTATTTAAGCCCGAGTGAGCACGCAGGGTCTCCATTTTGAAGCGGGAGGTTTGAACGCGCAGCCACCACGGCGGGGTTTTACGAGATTGTGATTAAGGTCCCCAGCGACCTTGACGAGCATCTGCCCGGCATTTCTGACAGCTTTGTGAACTGGGTGGCCGAGAAGGAATGGGAGTTGCCGCCAGATTCTGACATGGATCTGAATCTGATTGAGCAGGCACCCCTGACCGTGGCCGAGAAGCTGCAGCGCGACTTTCTGACGGAATGGCGCCGTGTGAGTAAGGCCCCGGAGGCCCTTTTCTTTGTGCAATTTGAGAAGGGAGAGAGCTACTTCCACATGCACGTGCTCGTGGAAACCACCGGGGTGAAATCCATGGTTTTGGGACGTTTCCTGAGTCAGATTCGCGAAAAACTGATTCAGAGAATTTACCGCGGGATCGAGCCGACTTTGCCAAACTGGTTCGCGGTCACAAAGACCAGAAATGGCGCCGGAGGCGGGAACAAGGTGGTGGATGAGTGCTACATCCCCAATTACTTGCTCCCCAAAACCCAGCCTGAGCTCCAGTGGGCGTGGACTAATATGGAACAGTATTTAAGCGCCTGTTTGAATCTCACGGAGCGTAAACGGTTGGTGGCGCAGCATCTGACGCACGTGTCGCAGACGCAGGAGCAGAACAAAGAGAATCAGAATCCCAATTCTGATGCGCCGGTGATCAGATCAAAAACTTCAGCCAGGTACATGGAGCTGGTCGGGTGGCTCGTGGACAAGGGGATTACCTCGGAGAAGCAGTGGATCCAGGAGGACCAGGCCTCATACATCTCCTTCAATGCGGCCTCCAACTCGCGGTCCCAAATCAAGGCTGCCTTGGACAATGCGGGAAAGATTATGAGCCTGACTAAAACCGCCCCCGACTACCTGGTGGGCCAGCAGCCCGTGGAGGACATTTCCAGCAATCGGATTTATAAAATTTTGGAACTAAACGGGTACGATCCCCAATATGCGGCTTCCGTCTTTCTGGGATGGGCCACGAAAAAGTTCGGCAAGAGGAACACCATCTGGCTGTTTGGGCCTGCAACTACCGGGAAGACCAACATCGCGGAGGCCATAGCCCACACTGTGCCCTTCTACGGGTGCGTAAACTGGACCAATGAGAACTTTCCCTTCAACGACTGTGTCGACAAGATGGTGATCTGGTGGGAGGAGGGGAAGATGACCGCCAAGGTCGTGGAGTCGGCCAAAGCCATTCTCGGAGGAAGCAAGGTGCGCGTGGACCAGAAATGCAAGTCCTCGGCCCAGATAGACCCGACTCCCGTGATCGTCACCTCCAACACCAACATGTGCGCCGTGATTGACGGGAACTCAACGACCTTCGAACACCAGCAGCCGTTGCAAGACCGGATGTTCAAATTTGAACTCACCCGCCGTCTGGATCATGACTTTGGGAAGGTCACCAAGCAGGAAGTCAAAGACTTTTTCCGGTGGGCAAAGGATCACGTGGTTGAGGTGGAGCATGAATTCTACGTCAAAAAGGGTGGAGCCAAGAAAAGACCCGCCCCCAGTGACGCAGATATAAGTGAGCCCAAACGGGTGCGCGAGTCAGTTGCGCAGCCATCGACGTCAGACGCGGAAGCTTCGATCAACTACGCAGACAGGTACCAAAACAAATGTTCTCGTCACGTGGGCATGAATCTGATGCTGTTTCCCTGCAGACAATGCGAGAGAATGAATCAGAATTCAAATATCTGCTTCACTCACGGACAGAAAGACTGTTTAGAGTGCTTTCCCGTGTCAGAATCTCAACCCGTTTCTGTCGTCAAAAAGGCGTATCAGAAACTGTGCTACATTCATCATATCATGGGAAAGGTGCCAGACGCTTGCACTGCCTGCGATCTGGTCAATGTGGATTTGGATGACTGCATCTTTGAACAATAAATGATTTAAATCAGGTATGGCTGCCGATGGTTATCTTCCAGATTGGCTCGAGGACAACCTCTCTGAGGGCATTCGCGAGTGGTGGGCGCTGAAACCTGGAGCCCCGAAGCCCAAAGCCAACCAGCAAAAGCAGGACGACGGCCGGGGTCTGGTGCTTCCTGGCTACAAGTACCTCGGACCCTTCAACGGACTCGACAAGGGGGAGCCCGTCAACGCGGCGGACGCAGCGGCCCTCGAGCACGACAAGGCCTACGACCAGCAGCTGCAGGCGGGTGACAATCCGTACCTGCGGTATAACCACGCCGACGCCGAGTTTCAGGAGCGTCTGCAAGAAGATACGTCTTTTGGGGGCAACCTCGGGCGAGCAGTCTTCCAGGCCAAGAAGCGGGTTCTCGAACCTCTCGGTCTGGTTGAGGAAGGCGCTAAGACGGCTCCTGGAAAGAAGAGACCGGTAGAGCCATCACCCCAGCGTTCTCCAGACTCCTCTACGGGCATCGGCAAGAAAGGCCAACAGCCCGCCAGAAAAAGACTCAATTTTGGTCAGACTGGCGACTCAGAGTCAGTTCCAGACCCTCAACCTCTCGGAGAACCTCCAGCAGCGCCCTCTGGTGTGGGACCTAATACAATGGCTGCAGGCGGTGGCGCACCAATGGCAGACAATAACGAAGGCGCCGACGGAGTGGGTAGTTCCTCGGGAAATTGGCATTGCGATTCCACATGGCTGGGCGACAGAGTCATCACCACCAGCACCCGAACCTGGGCCCTGCCCACCTACAACAACCACCTCTACAAGCAAATCTCCAACGGGACATCGGGAGGAGCCACCAACGACAACACCTACTTCGGCTACAGCACCCCCTGGGGGTATTTTGACTTTAACAGATTCCACTGCCACTTTTCACCACGTGACTGGCAGCGACTCATCAACAACAACTGGGGATTCCGGCCCAAGAGACTCAGCTTCAAGCTCTTCAACATCCAGGTCAAGGAGGTCACGCAGAATGAAGGCACCAAGACCATCGCCAATAACCTCACCAGCACCATCCAGGTGTTTACGGACTCGGAGTACCAGCTGCCGTACGTTCTCGGCTCTGCCCACCAGGGCTGCCTGCCTCCGTTCCCGGCGGACGTGTTCATGATTCCCCAGTACGGCTACCTAACACTCAACAACGGTAGTCAGGCCGTGGGACGCTCCTCCTTCTACTGCCTGGAATACTTTCCTTCGCAGATGCTGAGAACCGGCAACAACTTCCAGTTTACTTACACCTTCGAGGACGTGCCTTTCCACAGCAGCTACGCCCACAGCCAGAGCTTGGACCGGCTGATGAATCCTCTGATTGACCAGTACCTGTACTACTTGTCTCGGACTCAAACAACAGGAGGCACGGCAAATACGCAGACTCTGGGCTTCAGCCAAGGTGGGCCTAATACAATGGCCAATCAGGCAAAGAACTGGCTGCCAGGACCCTGTTACCGCCAACAACGCGTCTCAACGACAACCGGGCAAAACAACAATAGCAACTTTGCCTGGACTGCTGGGACCAAATACCATCTGAATGGAAGAAATTCATTGGCTAATCCTGGCATCGCTATGGCAACACACAAAGACGACGAGGAGCGTTTTTTTCCCAGTAACGGGATCCTGATTTTTGGCAAACAAAATGCTGCCAGAGACAATGCGGATTACAGCGATGTCATGCTCACCAGCGAGGAAGAAATCAAAACCACTAACCCTGTGGCTACAGAGGAATACGGTATCGTGGCAGATAACTTGCAGCAGCAAAACACGGCTCCTCAAATTGGAACTGTCAACAGCCAGGGGGCCTTACCCGGTATGGTCTGGCAGAACCGGGACGTGTACCTGCAGGGTCCCATCTGGGCCAAGATTCCTCACACGGACGGCAACTTCCACCCGTCTCCGCTGATGGGCGGCTTTGGCCTGAAACATCCTCCGCCTCAGATCCTGATCAAGAACACGCCTGTACCTGCGGATCCTCCGACCACCTTCAACCAGTCAAAGCTGAACTCTTTCATCACGCAATACAGCACCGGACAGGTCAGCGTGGAAATTGAATGGGAGCTGCAGAAGGAAAACAGCAAGCGCTGGAACCCCGAGATCCAGTACACCTCCAACTACTACAAATCTACAAGTGTGGACTTTGCTGTTAATACAGAAGGCGTGTACTCTGAACCCCGCCCCATTGGCACCCGTTACCTCACCCGTAATCTGTAATTGCTTGTTAATCAATAAACCGTTTAATTCGTTTCAGTTGAACTTTGGTCTCTGCGTATTTCTTTCTTATCTAGTTTCCATGAACGTTCCTCGAGGTCGACAGAAGCACCATGTCCTTGGGTCCGGCCTGCTGAATGCGCAGGCGGTCGGCCATGCCCCAGGCTTCGTTTTGACATCGGCGCAGGTCTTTGTAGTAGTCTTGCATGAGCCTTTCTACCGGCACTTCTTCTTCTCCTTCCTCTTGTCCTGCATCTCTTGCATCTATCGCTGCGGCGGCGGCGGAGTTTGGCCGTAGGTGGCGCCCTCTTCCTCCCATGCGTGTGACCCCGAAGCCCCTCATCGGCTGAAGCAGGGCTAGGTCGGCGACAACGCGCTCGGCTAATATGGCCTGCTGCACCTGCGTGAGGGTAGACTGGAAGTCATCCATGTCCACAAAGCGGTGGTATGCGCCCGTGTTGATGGTGTAAGTGCAGTTGGCCATAACGGACCAGTTAACGGTCTGGTGACCCGGCTGCGAGAGCTCGGTGTACCTGAGACGCGAGTAAGCCCTCGAGTCAAATACGTAGTCGTTGCAAGTCCGCACCAGGTACTGGTATCCCACCAAAAAGTGCGGCGGCGGCTGGCGGTAGAGGGGCCAGCGTAGGGTGGCCGGGGCTCCGGGGGCGAGATCTTCCAACATAAGGCGATGATATCCGTAGATGTACCTGGACATCCAGGTGATGCCGGCGGCGGTGGTGGAGGCGCGCGGAAAGTCGCGGACGCGGTTCCAGATGTTGCGCAGCGGCAAAAAGTGCTCCATGGTCGGGACGCTCTGGCCGGTCAGGCGCGCGCAATCGTTGACGCTCTAGACCGTGCAAAAGGAGAGCCTGTAAGCGGGCACTCTTCCGTGGTCTGGTGGATAAATTCGCAAGGGTATCATGGCGGACGACCGGGGTTCGAGCCCCGTATCCGGCCGTCCGCCGTGATCCATGCGGTTACCGCCCGCGTGTCGAACCCAGGTGTGCGACGTCAGACAACGGGGGAGTGCTCCTTTTGGCTTCCTTCCAGGCGCGGCGGCTGCTGCGCTAGCTTTTTTGGCCACTGGCCGCGCGCAGCGTAAGCGGTTAGGCTGGAAAGCGAAAGCATTAAGTGGCTCGCTCCCTGTAGCCGGAGGGTTATTTTCCAAGGGTTGAGTCGCGGGACCCCCGGTTCGAGTCTCGGACCGGCCGGACTGCGGCGAACGGGGGTTTGCCTCCCCGTCATGCAAGACCCCGCTTGCAAATTCCTCCGGAAACAGGGACGAGCCCCTTTTTTGCTTTTCCCAGATGCATCCGGTGCTGCGGCAGATGCGCCCCCCTCCTCAGCAGCGGCAAGAGCAAGAGCAGCGGCAGACATGCAGGGCACCCTCCCCTCCTCCTACCGCGTCAGGAGGGGCGACATCCGCGGTTGACGCGGCAGCAGATGGTGATTACGAACCCCCGCGGCGCCGGGCCCGGCACTACCTGGACTTGGAGGAGGGCGAGGGCCTGGCGCGGCTAGGAGCGCCCTCTCCTGAGCGGCACCCAAGGGTGCAGCTGAAGCGTGATACGCGTGAGGCGTACGTGCCGCGGCAGAACCTGTTTCGCGACCGCGAGGGAGAGGAGCCCGAGGAGATGCGGGATCGAAAGTTCCACGCAGGGCGCGAGCTGCGGCATGGCCTGAATCGCGAGCGGTTGCTGCGCGAGGAGGACTTTGAGCCCGACGCGCGAACCGGGATTAGTCCCGCGCGCGCACACGTGGCGGCCGCCGACCTGGTAACCGCATACGAGCAGACGGTGAACCAGGAGATTAACTTTCAAAAAAGCTTTAACAACCACGTGCGTACGCTTGTGGCGCGCGAGGAGGTGGCTATAGGACTGATGCATCTGTGGGACTTTGTAAGCGCGCTGGAGCAAAACCCAAATAGCAAGCCGCTCATGGCGCAGCTGTTCCTTATAGTGCAGCACAGCAGGGACAACGAGGCATTCAGGGATGCGCTGCTAAACATAGTAGAGCCCGAGGGCCGCTGGCTGCTCGATTTGATAAACATCCTGCAGAGCATAGTGGTGCAGGAGCGCAGCTTGAGCCTGGCTGACAAGGTGGCCGCCATCAACTATTCCATGCTTAGCCTGGGCAAGTTTTACGCCCGCAAGATATACCATACCCCTTACGTTCCCATAGACAAGGAGGTAAAGATCGAGGGGTTCTACATGCGCATGGCGCTGAAGGTGCTTACCTTGAGCGACGACCTGGGCGTTTATCGCAACGAGCGCATCCACAAGGCCGTGAGCGTGAGCCGGCGGCGCGAGCTCAGCGACCGCGAGCTGATGCACAGCCTGCAAAGGGCCCTGGCTGGCACGGGCAGCGGCGATAGAGAGGCCGAGTCCTACTTTGACGCGGGCGCTGACCTGCGCTGGGCCCCAAGCCGACGCGCCCTGGAGGCAGCTGGGGCCGGACCTGGGCTGGCGGTGGCACCCGCGCGCGCTGGCAACGTCGGCGGCGTGGAGGAATATGACGAGGACGATGAGTACGAGCCAGAGGACGGCGAGTACTAAGCGGTGATGTTTCTGATCAGATGATGCAAGACGCAACGGACCCGGCGGTGCGGGCGGCGCTGCAGAGCCAGCCGTCCGGCCTTAACTCCACGGACGACTGGCGCCAGGTCATGGACCGCATCATGTCGCTGACTGCGCGCAATCCTGACGCGTTCCGGCAGCAGCCGCAGGCCAACCGGCTCTCCGCAATTCTGGAAGCGGTGGTCCCGGCGCGCGCAAACCCCACGCACGAGAAGGTGCTGGCGATCGTAAACGCGCTGGCCGAAAACAGGGCCATCCGGCCCGACGAGGCCGGCCTGGTCTACGACGCGCTGCTTCAGCGCGTGGCTCGTTACAACAGCGGCAACGTGCAGACCAACCTGGACCGGCTGGTGGGGGATGTGCGCGAGGCCGTGGCGCAGCGTGAGCGCGCGCAGCAGCAGGGCAACCTGGGCTCCATGGTTGCACTAAACGCCTTCCTGAGTACACAGCCCGCCAACGTGCCGCGGGGACAGGAGGACTACACCAACTTTGTGAGCGCACTGCGGCTAATGGTGACTGAGACACCGCAAAGTGAGGTGTACCAGTCTGGGCCAGACTATTTTTTCCAGACCAGTAGACAAGGCCTGCAGACCGTAAACCTGAGCCAGGCTTTCAAAAACTTGCAGGGGCTGTGGGGGGTGCGGGCTCCCACAGGCGACCGCGCGACCGTGTCTAGCTTGCTGACGCCCAACTCGCGCCTGTTGCTGCTGCTAATAGCGCCCTTCACGGACAGTGGCAGCGTGTCCCGGGACACATACCTAGGTCACTTGCTGACACTGTACCGCGAGGCCATAGGTCAGGCGCATGTGGACGAGCATACTTTCCAGGAGATTACAAGTGTCAGCCGCGCGCTGGGGCAGGAGGACACGGGCAGCCTGGAGGCAACCCTAAACTACCTGCTGACCAACCGGCGGCAGAAGATCCCCTCGTTGCACAGTTTCGCACCCTTTGGCGCATCCCATTCTCCAGTAACTTTATGTCCATGGGCGCACTCACAGACCTGGGCCAAAACCTTCTCTACGCCAACTCCGCCCACGCGCTAGACATGACTTTTGAGGTGGATCCCATGGACGAGCCCACCCTTCTTTATGTTTTGTTTGAAGTCTTTGACGTGGTCCGTGTGCACCAGCCGCACCGCGGCGTCATCGAAACCGTGTACCTGCGCACGCCCTTCTCGGCCGGCAACGCCACAACATAAAGAAGCAAGCAACATCAACAACAGCTGCCGCCATGGGCTCCAGTGAGCAGGAACTGAAAGCCATTGTCAAAGATCTTGGTTGTGGGCCATATTTTTTGGGCACCTATGACAAGCGCTTTCCAGGCTTTGTTTCTCCACACAAGCTCGCCTGCGCCATAGTCAATACGGCCGGTCGCGAGACTGGGGGCGTACACTGGATGGCCTTTGCCTGGAACCCGCACTCAAAAACATGCTACCTCTTTGAGCCCTTTGGCTTTTCTGACCAGCGACTCAAGCAGGTTTACCAGTTTGAGTACGAGTCACTCCTGCGCCGTAGCGCCATTGCTTCTTCCCCCGACCGCTGTATAACGCTGGAAAAGTCCACCCAAAGCGTACAGGGGCCCAACTCGGCCGCCTGTGGACTATTCTGCTGCATGTTTCTCCACGCCTTTGCCAACTGGCCCCAAACTCCCATGGATCACAACCCCACCATGAACCTTATTACCGGGGTACCCAACTCCATGCTCAACAGTCCCCAGGTACAGCCCACCCTGCGTCGCAACCAGGAACAGCTCTACAGCTTCCTGGAGCGCCACTCGCCCTACTTCCGCAGCCACAGTGCGCAGATTAGGAGCGCCACTTCTTTTTGTCACTTGAAAAACATGTAAAAATAATGTACTAGAGACACTTTCAATAAAGGCAAATGCTTTTATTTGTACACTCTCGGGTGATTATTTACCCCCACCCTTGCCGTCTGCGCCGTTTAAAAATCAAAGGGGTTCTGCCGCGCATCGCTATGCGCCACTGGCAGGGACACGTTGCGATACTGGTGTTTAGTGCTCCACTTAAACTCAGGCACAACCATCCGCGGCAGCTCGGTGAAGTTTTCACTCCACAGGCTGCGCACCATCACCAACGCGTTTAGCAGGTCGGGCGCCGATATCTTGAAGTCGCAGTTGGGGCCTCCGCCCTGCGCGCGCGAGTTGCGATACACAGGGTTGCAGCACTGGAACACTATCAGCGCCGGGTGGTGCACGCTGGCCAGCACGCTCTTGTCGGAGATCAGATCCGCGTCCAGGTCCTCCGCGTTGCTCAGGGCGAACGGAGTCAACTTTGGTAGCTGCCTTCCCAAAAAGGGCGCGTGCCCAGGCTTTGAGTTGCACTCGCACCGTAGTGGCATCAAAAGGTGACCGTGCCCGGTCTGGGCGTTAGGATACAGCGCCTGCATAAAAGCCTTGATCTGCTTAAAAGCCACCTGAGCCTTTGCGCCTTCAGAGAAGAACATGCCGCAAGACTTGCCGGAAAACTGATTGGCCGGACAGGCCGCGTCGTGCACGCAGCACCTTGCGTCGGTGTTGGAGATCTGCACCACATTTCGGCCCCACCGGTTCTTCACGATCTTGGCCTTGCTAGACTGCTCCTTCAGCGCGCGCTGCCCGTTTTCGCTCGTCACATCCATTTCAATCACGTGCTCCTTATTTATCATAATGCTTCCGTGTAGACACTTAAGCTCGCCTTCGATCTCAGCGCAGCGGTGCAGCCACAACGCGCAGCCCGTGGGCTCGTGATGCTTGTAGGTCACCTCTGCAAACGACTGCAGGTACGCCTGCAGGAATCGCCCCATCATCGTCACAAAGGTCTTGTTGCTGGTGAAGGTCAGCTGCAACCCGCGGTGCTCCTCGTTCAGCCAGGTCTTGCATACGGCCGCCAGAGCTTCCACTTGGTCAGGCAGTAGTTTGAAGTTCGCCTTTAGATCGTTATCCACGTGGTACTTGTCCATCAGCGCGCGCGCAGCCTCCATGCCCTTCTCCCACGCAGACACGATCGGCACACTCAGCGGGTTCATCACCGTAATTTCACTTTCCGCTTCGCTGGGCTCTTCCTCTTCCTCTTGCGTCCGCATACCACGCGCCACTGGGTCGTCTTCATTCAGCCGCCGCACTGTGCGCTTACCTCCTTTGCCATGCTTGATTAGCACCGGTGGGTTGCTGAAACCCACCATTTGTAGCGCCACATCTTCTCTTTCTTCCTCGCTGTCCACGATTACCTCTGGTGATGGCGGGCGCTCGGGCTTGGGAGAAGGGCGCTTCTTTTTCTTCTTGGGCGCAATGGCCAAATCCGCCGCCGAGGTCGATGGCCGCGGGCTGGGTGTGCGCGGCACCAGCGCGTCTTGTGATGAGTCTTCCTCGTCCTCGGACTCGATACGCCGCCTCATCCGCTTTTTTGGGGGCGCCCGGGGAGGCGGCGGCGACGGGGACGGGGACGACACGTCCTCCATGGTTGGGGGACGTCGCGCCGCACCGCGTCCGCGCTCGGGGGTGGTTTCGCGCTGCTCCTCTTCCCGACTGGCCATTTCCTTCTCCTATAGGCAGAAAAAGATCATGGAGTCAGTCGAGAAGAAGGACAGCCTAACCGCCCCCTCTGAGTTCGCCACCACCGCCTCCACCGATGCCGCCAACGCGCCTACCACCTTCCCCGTCGAGGCACCCCCGCTTGAGGAGGAGGAAGTGATTATCGAGCAGGACCCAGGTTTTGTAAGCGAAGACGACGAGGACCGCTCAGTACCAACAGAGGATAAAAAGCAAGACCAGGACAACGCAGAGGCAAACGAGGAACAAGTCGGGCGGGGGGACGAAAGGCATGGCGACTACCTAGATGTGGGAGACGACGTGCTGTTGAAGCATCTGCAGCGCCAGTGCGCCATTATCTGCGACGCGTTGCAAGAGCGCAGCGATGTGCCCCTCGCCATAGCGGATGTCAGCCTTGCCTACGAACGCCACCTATTCTCACCGCGCGTACCCCCCAAACGCCAAGAAAACGGCACATGCGAGCCCAACCCGCGCCTCAACTTCTACCCCGTATTTGCCGTGCCAGAGGTGCTTGCCACCTATCACATCTTTTTCCAAAACTGCAAGATACCCCTATCCTGCCGTGCCAACCGCAGCCGAGCGGACAAGCAGCTGGCCTTGCGGCAGGGCGCTGTCATACCTGATATCGCCTCGCTCAACGAAGTGCCAAAAATCTTTGAGGGTCTTGGACGCGACGAGAAGCGCGCGGCAAACGCTCTGCAACAGGAAAACAGCGAAAATGAAAGTCACTCTGGAGTGTTGGTGGAACTCGAGGGTGACAACGCGCGCCTAGCCGTACTAAAACGCAGCATCGAGGTCACCCACTTTGCCTACCCGGCACTTAACCTACCCCCCAAGGTCATGAGCACAGTCATGAGTGAGCTGATCGTGCGCCGTGCGCAGCCCCTGGAGAGGGATGCAAATTTGCAAGAACAAACAGAGGAGGGCCTACCCGCAGTTGGCGACGAGCAGCTAGCGCGCTGGCTTCAAACGCGCGAGCCTGCCGACTTGGAGGAGCGACGCAAACTAATGATGGCCGCAGTGCTCGTTACCGTGGAGCTTGAGTGCATGCAGCGGTTCTTTGCTGACCCGGAGATGCAGCGCAAGCTAGAGGAAACATTGCACTACACCTTTCGACAGGGCTACGTACGCCAGGCCTGCAAGATCTCCAACGTGGAGCTCTGCAACCTGGTCTCCTACCTTGGAATTTTGCACGAAAACCGCCTTGGGCAAAACGTGCTTCATTCCACGCTCAAGGGCGAGGCGCGCCGCGACTACGTCCGCGACTGCGTTTACTTATTTCTATGCTACACCTGGCAGACGGCCATGGGCGTTTGGCAGCAGTGCTTGGAGGAGTGCAACCTCAAGGAGCTGCAGAAACTGCTAAAGCAAAACTTGAAGGACCTATGGACGGCCTTCAACGAGCGCTCCGTGGCCGCGCACCTGGCGGACATCATTTTCCCCGAACGCCTGCTTAAAACCCTGCAACAGGGTCTGCCAGACTTCACCAGTCAAAGCATGTTGCAGAACTTTAGGAACTTTATCCTAGAGCGCTCAGGAATCTTGCCCGCCACCTGCTGTGCACTTCCTAGCGACTTTGTGCCCATTAAGTACCGCGAATGCCCTCCGCCGCTTTGGGGCCACTGCTACCTTCTGCAGCTAGCCAACTACCTTGCCTACCACTCTGACATAATGGAAGACGTGAGCGGTGACGGTCTACTGGAGTGTCACTGTCGCTGCAACCTATGCACCCCGCACCGCTCCCTGGTTTGCAATTCGCAGCTGCTTAACGAAAGTCAAATTATCGGTACCTTTGAGCTGCAGGGTCCCTCGCCTGACGAAAAGTCCGCGGCTCCGGGGTTGAAACTCACTCCGGGGCTGTGGACGTCGGCTTACCTTCGCAAATTTGTACCTGAGGACTACCACGCCCACGAGATTAGGTTCTACGAAGACCAATCCCGCCCGCCTAATGCGGAGCTTACCGCCTGCGTCATTACCCAGGGCCACATTCTTGGCCAATTGCAAGCCATCAACAAAGCCCGCCAAGAGTTTCTGCTACGAAAGGGACGGGGGGTTTACTTGGACCCCCAGTCCGGCGAGGAGCTCAACCCAATCCCCCCGCCGCCGCAGCCCTATCAGCAGCAGCCGCGGGCCCTTGCTTCCCAGGATGGCACCCAAAAAGAAGCTGCAGCTGCCGCCGCCACCCACGGACGAGGAGGAATACTGGGACAGTCAGGCAGAGGAGGTTTTGGACGAGGAGGAGGAGGACATGATGGAAGACTGGGAGAGCCTAGACGAGGAAGCTTCCGAGGTCGAAGAGGTGTCAGACGAAACACCGTCACCCTCGGTCGCATTCCCCTCGCCGGCGCCCCAGAAATCGGCAACCGGTTCCAGCATGGCTACAACCTCCGCTCCTCAGGCGCCGCCGGCACTGCCCGTTCGCCGACCCAACCGTAGATGGGACACCACTGGAACCAGGGCCGGTAAGTCCAAGCAGCCGCCGCCGTTAGCCCAAGAGCAACAACAGCGCCAAGGCTACCGCTCATGGCGCGGGCACAAGAACGCCATAGTTGCTTGCTTGCAAGACTGTGGGGGCAACATCTCCTTCGCCCGCCGCTTTCTTCTCTACCATCACGGCGTGGCCTTCCCCCGTAACATCCTGCATTACTACCGTCATCTCTACAGCCCATACTGCACCGGCGGCAGCGGCAGCAACAGCAGCGGCCACACAGAAGCAAAGGCGACCGGATAGCAAGACTCTGACAAAGCCCAAGAAATCCACAGCGGCGGCAGCAGCAGGAGGAGGAGCGCTGCGTCTGGCGCCCAACGAACCCGTATCGACCCGCGAGCTTAGAAACAGGATTTTTCCCACTCTGTATGCTATATTTCAACAGAGCAGGGGCCAAGAACAAGAGCTGAAAATAAAAAACAGGTCTCTGCGATCCCTCACCCGCAGCTGCCTGTATCACAAAAGCGAAGATCAGCTTCGGCGCACGCTGGAAGACGCGGAGGCTCTCTTCAGTAAATACTGCGCGCTGACTCTTAAGGACTAGTTTCGCGCCCTTTCTCAAATTTAAGCGCGAAAACTACGTCATCTCCAGCGGCCACACCCGGCGCCAGCACCTGTTGTCAGCGCCATTATGAGCAAGGAAATTCCCACGCCCTACATGTGGAGTTACCAGCCACAAATGGGACTTGCGGCTGGAGCTGCCCAAGACTACTCAACCCGAATAAACTACATGAGCGCGGGACCCCACATGATATCCCGGGTCAACGGAATACGCGCCCACCGAAACCGAATTCTCCTGGAACAGGCGGCTATTACCACCACACCTCGTAATAACCTTAATCCCCGTAGTTGGCCCGCTGCCCTGGTGTACCAGGAAAGTCCCGCTCCCACCACTGTGGTACTTCCCAGAGACGCCCAGGCCGAAGTTCAGATGACTAACTCAGGGGCGCAGCTTGCGGGCGGCTTTCGTCACAGGGTGCGGTCGCCCGGGCAGGGTATAACTCACCTGACAATCAGAGGGCGAGGTATTCAGCTCAACGACGAGTCGGTGAGCTCCTCGCTTGGTCTCCGTCCGGACGGGACATTTCAGATCGGCGGCGCCGGCCGCTCTTCATTCACGCCTCGTCAGGCAATCCTAACTCTGCAGACCTCGTCCTCTGAGCCGCGCTCTGGAGGCATTGGAACTCTGCAATTTATTGAGGAGTTTGTGCCATCGGTCTACTTTAACCCCTTCTCGGGACCTCCCGGCCACTATCCGGATCAATTTATTCCTAACTTTGACGCGGTAAAGGACTCGGCGGACGGCTACGACTGAATGTTAAGTGGAGAGGCAGAGCAACTGCGCCTGAAACACCTGGTCCACTGTCGCCGCCACAAGTGCTTTGCCCGCGACTCCGGTGAGTTTTGCTACTTTGAATTGCCCGAGGATCATATCGAGGGCCCGGCGCACGGCGTCCGGCTTACCGCCCAGGGAGAGCTTGCCCGTAGCCTGATTCGGGAGTTTACCCAGCGCCCCCTGCTAGTTGAGCGGGACAGGGGACCCTGTGTTCTCACTGTGATTTGCAACTGTCCTAACCCTGGATTACATCAAGATCTTATTCCCTTTAACTAATAAAAAAAAATAATAAAGCATCACTTACTTAAAATCAGTTAGCAAATTTCTGTCCAGTTTATTCAGCAGCACCTCCTTGCCCTCCTCCCAGCTCTGGTATTGCAGCTTCCTCCTGGCTGCAAACTTTCTCCACAATCTAAATGGAATGTCAGTTTCCTCCTGTTCCTGTCCATCCGCACCCACTATCTTCATGTTGTTGCAGATGAAGCGCGCAAGACCGTCTGAAGATACCTTCAACCCCGTGTATCCATATGACACGGAAACCGGTCCTCCAACTGTGCCTTTTCTTACTCCTCCCTTTGTATCCCCCAATGGGTTTCAAGAGAGTCCCCCTGGGGTACTCTCTTTGCGCCTATCCGAACCTCTAGTTACCTCCAATGGCATGCTTGCGCTCAAAATGGGCAACGGCCTCTCTCTGGACGAGGCCGGCAACCTTACCTCCCAAAATGTAACCACTGTGAGCCCACCTCTCAAAAAAACCAAGTCAAACATAAACCTGGAAATATCTGCACCCCTCACAGTTACCTCAGAAGCCCTAACTGTGGCTGCCGCCGCACCTCTAATGGTCGCGGGCAACACACTCACCATGCAATCACAGGCCCCGCTAACCGTGCACGACTCCAAACTTAGCATTGCCACCCAAGGACCCCTCACAGTGTCAGAAGGAAAGCTAGCCCTGCAAACATCAGGCCCCCTCACCACCACCGATAGCAGTACCCTTACTATCACTGCCTCACCCCCTCTAACTACTGCCACTGGTAGCTTGGGCATTGACTTGAAAGAGCCCATTTATACACAAAATGGAAAACTAGGACTAAAGTACGGGGCTCCTTTGCATGTAACAGACGACCTAAACACTTTGACCGTAGCAACTGGTCCAGGTGTGACTATTAATAATACTTCCTTGCAAACTAAAGTTACTGGAGCCTTGGGTTTTGATTCACAAGGCAATATGCAACTTAATGTAGCAGGAGGACTAAGGATTGATTCTCAAAACAGACGCCTTATACTTGATGTTAGTTATCCGTTTGATGCTCAAAACCAACTAAATCTAAGACTAGGACAGGGCCCTCTTTTTATAAACTCAGCCCACAACTTGGATATTAACTACAACAAAGGCCTTTACTTGTTTACAGCTTCAAACAATTCCAAAAAGCTTGAGGTTAACCTAAGCACTGCCAAGGGGTTGATGTTTGACGCTACAGCCATAGCCATTAATGCAGGAGATGGGCTTGAATTTGGTTCACCTAATGCACCAAACACAAATCCCCTCAAAACAAAAATTGGCCATGGCCTAGAATTTGATTCAAACAAGGCTATGGTTCCTAAACTAGGAACTGGCCTTAGTTTTGACAGCACAGGTGCCATTACAGTAGGAAACAAAAATAATGATAAGCTAACTTTGTGGACCACACCAGCTCCATCTCCTAACTGTAGACTAAATGCAGAGAAAGATGCTAAACTCACTTTGGTCTTAACAAAATGTGGCAGTCAAATACTTGCTACAGTTTCAGTTTTGGCTGTTAAAGGCAGTTTGGCTCCAATATCTGGAACAGTTCAAAGTGCTCATCTTATTATAAGATTTGACGAAAATGGAGTGCTACTAAACAATTCCTTCCTGGACCCAGAATATTGGAACTTTAGAAATGGAGATCTTACTGAAGGCACAGCCTATACAAACGCTGTTGGATTTATGCCTAACCTATCAGCTTATCCAAAATCTCACGGTAAAACTGCCAAAAGTAACATTGTCAGTCAAGTTTACTTAAACGGAGACAAAACTAAACCTGTAACACTAACCATTACACTAAACGGTACACAGGAAACAGGAGACACAACTCCAAGTGCATACTCTATGTCATTTTCATGGGACTGGTCTGGCCACAACTACATTAATGAAATATTTGCCACATCCTCTTACACTTTTTCATACATTGCCCAAGAATAAAGAATCGTTTGTGTTATGTTTCAACGTGTTTATTTTTCAATTGCAGAAAATTTCAAGTCATTTTTCATTCAGTAGTATAGCCCCACCACCACATAGCTTATACAGATCACCGTACCTTAATCAAACTCACAGAACCCTAGTATTCAACCTGCCACCTCCCTCCCAACACACAGAGTACACAGTCCTTTCTCCCCGGCTGGCCTTAAAAAGCATCATATCATGGGTAACAGACATATTCTTAGGTGTTATATTCCACACGGTTTCCTGTCGAGCCAAACGCTCATCAGTGATATTAATAAACTCCCCGGGCAGCTCACTTAAGTTCATGTCGCTGTCCAGCTGCTGAGCCACAGGCTGCTGTCCAACTTGCGGTTGCTTAACGGGCGGCGAAGGAGAAGTCCACGCCTACATGGGGGTAGAGTCATAATCGTGCATCAGGATAGGGCGGTGGTGCTGCAGCAGCGCGCGAATAAACTGCTGCCGCCGCCGCTCCGTCCTGCAGGAATACAACATGGCAGTGGTCTCCTCAGCGATGATTCGCACCGCCCGCAGCATAAGGCGCCTTGTCCTCCGGGCACAGCAGCGCACCCTGATCTCACTTAAATCAGCACAGTAACTGCAGCACAGCACCACAATATTGTTCAAAATCCCACAGTGCAAGGCGCTGTATCCAAAGCTCATGGCGGGGACCACAGAACCCACGTGGCCATCATACCACAAGCGCAGGTAGATTAAGTGGCGACCCCTCATAAACACGCTGGACATAAACATTACCTCTTTTGGCATGTTGTAATTCACCACCTCCCGGTACCATATAAACCTCTGATTAAACATGGCGCCATCCACCACCATCCTAAACCAGCTGGCCAAAACCTGCCCGCCGGCTATACACTGCAGGGAACCGGGACTGGAACAATGACAGTGGAGAGCCCAGGACTCGTAACCATGGATCATCATGCTCGTCATGATATCAATGTTGGCACAACACAGGCACACGTGCATACACTTCCTCAGGATTACAAGCTCCTCCCGCGTTAGAACCATATCCCAGGGAACAACCCATTCCTGAATCAGCGTAAATCCCACACTGCAGGGAAGACCTCGCACGTAACTCACGTTGTGCATTGTCAAAGTGTTACATTCGGGCAGCAGCGGATGATCCTCCAGTATGGTAGCGCGGGTTTCTGTCTCAAAAGGAGGTAGACGATCCCTACTGTACGGAGTGCGCCGAGACAACCGAGATCGTGTTGGTCGTAGTGTCATGCCAAATGGAACGCCGGACGTAGTCATATTTCCTGAAGCAAAACCAGGTGCGGGCGTGACAAACAGATCTGCGTCTCCGGTCTCGCCGCTTAGATCGCTCTGTGTAGTAGTTGTAGTATATCCACTCTCTCAAAGCATCCAGGCGCCCCCTGGCTTCGGGTTCTATGTAAACTCCTTCATGCGCCGCTGCCCTGATAACATCCACCACCGCAGAATAAGCCACACCCAGCCAACCTACACATTCGTTCTGCGAGTCACACACGGGAGGAGCGGGAAGAGCTGGAAGAACCATGTTTTTTTTTTTATTCCAAAAGATTATCCAAAACCTCAAAATGAAGATCTATTAAGTGAACGCGCTCCCCTCCGGTGGCGTGGTCAAACTCTACAGCCAAAGAACAGATAATGGCATTTGTAAGATGTTGCACAATGGCTTCCAAAAGGCAAACGGCCCTCACGTCCAAGTGGACGTAAAGGCTAAACCCTTCAGGGTGAATCTCCTCTATAAACATTCCAGCACCTTCAACCATGCCCAAATAATTCTCATCTCGCCACCTTCTCAATATATCTCTAAGCAAATCCCGAATATTAAGTCCGGCCATTGTAAAAATCTGCTCCAGAGCGCCCTCCACCTTCAGCCTCAAGCAGCGAATCATGATTGCAAAAATTCAGGTTCCTCACAGACCTGTATAAGATTCAAAAGCGGAACATTAACAAAAATACCGCGATCCCGTAGGTCCCTTCGCAGGGCCAGCTGAACATAATCGTGCAGGTCTGCACGGACCAGCGCGGCCACTTCCCCGCCAGGAACCATGACAAAAGAACCCACACTGATTATGACACGCATACTCGGAGCTATGCTAACCAGCGTAGCCCCGATGTAAGCTTGTTGCATGGGCGGCGATATAAAATGCAAGGTGCTGCTCAAAAAATCAGGCAAAGCCTCGCGCAAAAAAGAAAGCACATCGTAGTCATGCTCATGCAGATAAAGGCAGGTAAGCTCCGGAACCACCACAGAAAAAGACACCATTTTTCTCTCAAACATGTCTGCGGGTTTCTGCATAAACACAAAATAAAATAACAAAAAAACATTTAAACATTAGAAGCCTGTCTTACAACAGGAAAAACAACCCTTATAAGCATAAGACGGACTACGGCCATGCCGGCGTGACCGTAAAAAAACTGGTCACCGTGATTAAAAAGCACCACCGACAGCTCCTCGGTCATGTCCGGAGTCATAATGTAAGACTCGGTAAACACATCAGGTTGATTCACATCGGTCAGTGCTAAAAAGCGACCGAAATAGCCCGGGGGAATACATACCCGCAGGCGTAGAGACAACATTACAGCCCCCATAGGAGGTATAACAAAATTAATAGGAGAGAAAAACACATAAACACCTGAAAAACCCTCCTGCCTAGGCAAAATAGCACCCTCCCGCTCCAGAACAACATACAGCGCTTCCACAGCGGCAGCCATAACAGTCAGCCTTACCAGTAAAAAAGAAAACCTATTAAAAAAACACCACTCGACACGGCACCAGCTCAATCAGTCACAGTGTAAAAAAGGGCCAAGTGCAGAGCGAGTATATATAGGACTAAAAAATGACGTAACGGTTAAAGTCCACAAAAAACACCCAGAAAACCGCACGCGAACCTACGCCCAGAAACGAAAGCCAAAAAACCCACAACTTCCTCAAATCGTCACTTCCGTTTTCCCACGTTACGTCACTTCCCATTTTAAGAAAACTACAATTCCCAACACATATCGATatcattgtcacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaagcccaatctgaataatgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagtttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgtttttccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaagcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctcgacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacgggccagagctgcatcgcgcgtttcggtgatgacggtgaaaacctctgacacatgcagctcccggacgtcattgtcgat
