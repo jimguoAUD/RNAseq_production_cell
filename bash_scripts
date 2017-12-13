@@ -1,0 +1,7 @@
+# subread setting
+subread-buildindex -o my_index fasta_file
+subread-align -t 0 -T 4 -d 50 -D 600 -i my_index -r read1 -S ff -R read2 -o $output_name
+
+
+# FeatureCounts settings
+featureCounts -p -P -d 50 -D 600 -t CDS -T 4 -s 1 -S ff -g gene_id -a GTF_file -o $output_name bam_file1 bam_file2 bam_file3 bam_file4 bam_file5 bam_file6 bam_file7 bam_file8 bam_file9 bam_file10 bam_file11
