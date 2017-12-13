@@ -1,0 +1,3 @@
+1. Fastq files were mapped onto hg38_analysisSet (ftp://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/analysisSet/hg38.analysisSet.chroms.tar.gz) using Subread mapper tools
+2. Count table per gene was generated using the featureCounts package of subread mapping tool with Homo_sapiens.GRCh38.91.gtf (ftp://ftp.ensembl.org/pub/release-91/gtf/homo_sapiens) as annotation file.
+3. Gene expression profile and the Gene enrichment analysis for each profile was analyzed using Short Time-series Expression Miner (STEM) tool (http://www.cs.cmu.edu/~jernst/stem/). 
