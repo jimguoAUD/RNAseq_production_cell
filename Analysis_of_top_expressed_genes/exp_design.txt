@@ -1,0 +1,8 @@
+FileName	Treatment			
+bam_file1	prior	
+bam_file2	0h_post	
+bam_file3	24h_post
+bam_file4	48h_post
+bam_file5	72h_post
+bam_file6	96h_post
+bam_file7	120h_post
